@@ -1,0 +1,174 @@
+body, html {
+    width: 100vw;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, "Droid Sans";
+    background-color: #eee;
+    color: #222;
+}
+
+body {
+    height: 100%;
+}
+
+@media screen {
+    body, html, td, th {
+        font-size: 11pt;
+    }
+}
+
+
+@media print {
+    body, html, td, th {
+        font-size: 8pt;
+    }
+}
+
+a {
+    color: rgb(38, 57, 80);
+}
+
+a:visited {
+    color: rgb(54, 108, 174);
+}
+
+aside {
+    float: right;
+    width: 18.5rem;
+    background: rgb(63, 55, 69);
+    height: 100%;
+    display: block;
+}
+
+aside, aside * {
+    color: #ddd;
+}
+
+aside section {
+    margin-top: 1.5rem;
+}
+
+aside .title {
+    font-size: 150%;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+aside section > * {
+    margin: 0 0.8rem;
+}
+
+aside section > .title {
+    margin: 0;
+    padding: 0.1rem 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+aside .left-icon-text {
+    padding: 0.2rem 0;
+}
+
+aside .left-icon-text span {
+    width: 1.8rem;
+    display: inline-block;
+}
+
+aside table.skills  {
+    width: calc(100% - 1rem);
+}
+
+aside table.skills td {
+    padding: 0.1rem 0;
+    vertical-align: middle;
+}
+
+aside table.skills td.rate {
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+aside .star-solid {
+    color:rgb(215, 162, 70);
+    text-shadow: 0.5px 0.5px #aaa;
+}
+
+aside .star-hollow {
+    color: #888;
+}
+
+header, content {
+    float: left;
+    min-height: 10rem;
+    width: calc(100vw - 18.5rem);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+}
+
+content > section {
+    margin: 1rem;
+}
+
+content > section > * {
+    padding: 0 1rem;
+} 
+
+content > section > .title {
+    padding: 0 0.5rem;
+    border-bottom: 1px solid #000;
+    margin-bottom: 1rem;
+}
+
+content > section.links > table td {
+    padding: 0.2rem;
+    vertical-align: top;
+}
+
+@media print {
+    content > section.links > table td.icon {
+        padding-top: 0.4rem;
+    }
+}
+
+content > section.links > table td.icon > img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+content > section.links > table td.name {
+    white-space: nowrap;
+    padding-right: 1rem;
+}
+
+content div.title {
+    font-size: 170%;
+}
+
+content > section.experience table td {
+    width: 80%;
+}
+
+content > section.experience table td:first-of-type {
+    width: 15rem !important;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+content > section.experience table td ul {
+    padding-left: 1rem;
+    margin-top: 0.7rem;
+}
+
+content>section.experience table td li {
+    padding: 0.2rem;
+    font-weight: normal;
+}
+
+content>section.experience table td li small {
+    font-weight: bold;
+}

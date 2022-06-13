@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="cv.en.xsl" ?>
+<cv name="Felipe Buccioni">
+    <about>
+        <trans lang="en">
+            Enthusiast, self-taught, with a self-improving behavior and more than 20 years of experience 
+            have made me a professional who performed in different areas and markets with projects related 
+            to software development, information and communication technologies, solving the challenges 
+            with innovation, creativity and flexibility.
+        </trans>
+        <trans lang="es">
+            Entusiasta, autodidacta, en mejora continua y con mas de 20 años de experiencia me han hecho
+            un profesional que ha trabajado en diferentes áreas y rubros con proyectos relacionados con
+            tecnologias de desarollo de software, informacion y comunicacion, resolviendo los retos
+            con innovacion, creatividad y flexibilidad.
+        </trans>
+    </about>
+    <links>
+        <link 
+            url="https://github.com/fbuccioni"
+            icon="github.svg"
+        >
+            <name>
+                <trans lang="en">GitHub profile</trans>
+                <trans lang="es">Perfil de GitHub</trans>
+            </name>
+            <description>
+                <trans lang="en">
+                    Contributions and some custom mods to open source projects, plugins/libreries by me, 
+                    experiments and more.
+                </trans>
+                <trans lang="es">
+                    Contribuciones y algunas modificaciones personalizadas a proyectos de código abierto,
+                    algunos plugins/librerias hechas por mi, experimentos y mas.
+                </trans>
+            </description>
+        </link>
+        <link 
+            url="https://stackoverflow.com/users/742249/felipe-buccioni"
+            icon="stackoverflow.png"
+        >
+            <name>
+                <trans lang="en">StackOverflow profile</trans>
+                <trans lang="es">Perfil de StackOverflow</trans>
+            </name>
+            <description>
+                <trans lang="en">
+                    Answers and questions by me about development and programming in different 
+                    languages and areas.
+                </trans>
+                <trans lang="es">
+                    Respuestas y preguntas por mi acerca de desarrollo y programación en 
+                    diferentes lenguajes y áreas
+                </trans>
+            </description>
+        </link>
+        <link 
+            url="https://linkedin.com/in/fbuccioni"
+            icon="linkedin.svg"
+        >
+            <name>
+                <trans lang="en">LinkedIn profile</trans>
+                <trans lang="es">Perfil de LinkedIn</trans>
+            </name>
+            <description>
+                <trans lang="en">
+                    Networking and skills endorsement.
+                </trans>
+                <trans lang="es">
+                    Red de contactos y habilidades aprobadas por otros.
+                </trans>
+            </description>
+        </link>
+    </links>
+    <personal>
+        <location relocation="yes">Santiago, Chile</location>
+        <phone>+56 9 87543409</phone>
+        <email>felipe.buccioni@gmail.com</email>
+    </personal>
+    <skills max-rate="5">
+        <skill rate="2">Angular</skill>
+        <skill rate="4">Audio streaming</skill>
+        <skill rate="3">AWS</skill>
+        <skill rate="4">AWS Lambda</skill>
+        <skill rate="5">Bash</skill>
+        <skill rate="4">CSS</skill>
+        <skill rate="5">Django</skill>
+        <skill rate="5">Django REST</skill>
+        <skill rate="4">Docker</skill>
+        <skill rate="4">Documental databases</skill>
+        <skill rate="3">ffmpeg</skill>
+        <skill rate="3">FastAPI</skill>
+        <skill rate="4">GeoDjango</skill>
+        <skill rate="5">GIS</skill>
+        <skill rate="5">leaflet</skill>
+        <skill rate="5">Python</skill>
+        <skill rate="4">NodeJS/JavsScript</skill>
+        <skill rate="4">Mapserver</skill>
+        <skill rate="4">Relational databases</skill>
+        <skill rate="5">REST API</skill>
+        <skill rate="4">RPA</skill>
+        <skill rate="4">Video streaming</skill>
+    </skills>
+    <jobs more="9">
+        <job since="2020-03">
+            <for>
+                <trans lang="en">Freelance (as Aequum)</trans>
+                <trans lang="es">Freelance (como Aequum)</trans>
+            </for>
+            <project tech="php, php 7, API, phpdoc">
+                <trans lang="en">
+                    Development of a library API to sign PDF files using a commandline tool as backend
+                </trans>
+                <trans lang="es">
+                    Desarollo de una API biblioteca para firmar archivos PDF con una herramienta de linea 
+                    de comandos como backend
+                </trans>
+            </project>
+            <project tech="python, Django, Django REST, Django JET, GeoDjango, Google Geocode, Mailchimp">
+                <trans lang="en">
+                    Lead and backend developer + DevOps for refactor of somoscircular.com processes
+                </trans>
+                <trans lang="es">
+                    Desarollador lider y backend + DevOps para refactorizar el proceso de somoscircular.com
+                </trans>
+            </project>
+            <project tech="python, Django, Django REST, Django JET, JWT Auth, GeoDJango">
+                <trans lang="en">
+                    Co-Project Leader/Backend developer of app/platform for COVID-19 traceability for the Aysén 
+                    Region in 1 month, also act like problem solver with the deployment on iOS with ionic
+                </trans>
+                <trans lang="es">
+                    Co lider de proyecto/Desarollador backend de aplicacion/plataforma de trazabilidad para el
+                    COVID-19 para la rebion de Aysén en 1 mes, tambien actué como solucionador de problemas con
+                    ionic y iOS.
+                </trans>
+            </project>
+            <project tech="python, Django, Django REST, Django JET">
+                <trans lang="en">
+                    Co-Project Leader/Backend developer of long form for bank application in 3 weeks
+                </trans>
+                <trans lang="es">
+                    Co lider de proyecto/Desarollador backend para un largo formulario de aplicación para bancos
+                    en 3 semanas
+                </trans>
+            </project>
+            <project tech="python, OpenCV, TKInter, multiprocessing, sharedmem, IPC, Image processing, pyautogui">
+                <trans lang="en">
+                    RPA Robot who enters bank data to ERP software
+                </trans>
+                <trans lang="es">
+                    Robot RPA que ingresa datos a un software ERP
+                </trans>
+            </project>
+        </job>
+        <job since="2020-03">
+            <for>
+                <trans lang="en">Kudzu logistics (As Freelance)</trans>
+                <trans lang="es">Kudzu logistics (Como Freelance)</trans>
+            </for>
+            <positions>Senior Backend Developer / API Integrator / Consulting / Team leader</positions>
+            <location>Santiago, Chile</location>
+            <project tech="python, Django, Django REST, Django JET, multiprocessing, webhook arq, queue arq, API integration">
+                <trans lang="en">
+                    Intermediate app to manage the logistics of assurance car GPS, integrating Octo Telematics, courier 
+                    clients and logistics company
+                </trans>
+                <trans lang="es">
+                    Apliación intermediaria para el manejo de la logistica de GPS de aseguradoras de auto, integrando Octo 
+                    Telemetics, distribuidores y companias de logística
+                </trans>                
+            </project>
+            <project tech="python, API integration">
+                <trans lang="en">
+                    Python package to connect with DHL XML Services
+                </trans>
+                <trans lang="es">
+                    Paquete python para conectar con DHL XML Services
+                </trans>                
+            </project>
+            <project tech="python, API integration">
+                <trans lang="en">
+                    Python package to connect with FedEx/TNT Chile API
+                </trans>
+                <trans lang="es">
+                    Paquete python para conectar con API FedEx/TNT Chile
+                </trans>                
+            </project>
+            <project tech="python, String phonetics/coincidences pattern, AWS S3, PDF reading">
+                <trans lang="en">
+                    Integration with FedEx/TNT Chile
+                </trans>
+                <trans lang="es">
+                    Itegración con FedEx/TNT Chile
+                </trans>                
+            </project>
+            <project tech="python, Web2Py, Shopify API, API Integration">
+                <trans lang="en">
+                    Integration of shipping with Shopify
+                </trans>
+                <trans lang="es">
+                    Integracion de envíos con Spotify
+                </trans>                
+            </project>
+            <project tech="python, Web2Py, Jumpseller API, API Integration">
+                <trans lang="en">
+                    Integration of shipping with Jumpseller
+                </trans>
+                <trans lang="es">
+                    Integracion de envíos con Jumpseller
+                </trans>                
+            </project>
+            <project tech="python, Web2Py, php, WordPress, Woocommerce, Wordpress plugins, WP REST">
+                <trans lang="en">
+                    Integration of shipping with Woocoommerce
+                </trans>
+                <trans lang="es">
+                    Integracion de envíos con Woocommerce
+                </trans>                
+            </project>
+            <project tech="php, WordPress, Woocommerce, Wordpress plugins, WP REST">
+                <trans lang="en">
+                    Integration of SAP products and stock update with Woocommerce
+                </trans>
+                <trans lang="es">
+                    Integracion para actualizacion de productos y stock SAP con Woocommerce
+                </trans>                
+            </project>
+            <project tech="python, flask, sharedmem, Shopify API, bsale API">
+                <trans lang="en">
+                    Integration of bsale with Shopify
+                </trans>
+                <trans lang="es">
+                    Integracion de bsale con Shopify
+                </trans>                
+            </project>
+        </job>
+        <job since="2015-05" until="2018-03">
+            <for>Freelance</for>
+            <project tech="django, python, GDAL, JavaScript, Leaflet, PostgreSQL, PostGIS, MapServer">
+                <trans lang="en">
+                    GIS for planning, view resources and show research studies of the Nonguen national reserve 
+                    and towns nearby showing different cartography formats from a cloud file repository or a 
+                    database, the possibility of administrate the options to show labels, styles 
+                    (Developing a SLD plugin) for Leaflet, other data using GDAL library and elevation cloud or
+                    image data using UMN MapServer.
+                </trans>
+                <trans lang="es">
+                    SIG para planificacion, ver recursos y mostrar estudios de investigacion de la reserva nacional
+                    Nonguén y cuidades aledañas mostrando cartografía en diferentes formatos, desde un repositorio de 
+                    archivos cloud o una base de datos, la posibilidad de administrar opciones de mostrar etiquetas,
+                    estilos (Desarollando un plugin para SLD) en leaflet, otros datos usando la libreria GDAL y nubes 
+                    de puntos o datos de imagen usando UMN MapServer.
+                </trans>
+            </project>
+            <project tech="Huawei FusionSphere, ha-proxy, nginx, MongoDB, tomcat, git, GitLab, bash, java">
+                <trans lang="en">
+                    Design of project to upgrade of a critical government legacy web application considering 
+                    autoscale of the web applications and database cluster, deployable dev, prod and qa enviroments, 
+                    distributed virtualization, VCS and code tickets management
+                </trans>
+                <trans lang="es">
+                    Diseño de proyecto para mejora de una aplicacion web heredada pero importante de gobierno, considerando
+                    auto escalamiento de la apliacion web usando cluster de bases de datos, despliegue de ambientes dev, prod 
+                    y qa, virtualizacion distribuida, VCS y administracion de tickets.
+                </trans>
+            </project>
+            <project tech="MapServer, MapCache, nginx, leaflet, GDAL Image processing with TMS strategy, advanced image compression">
+                <trans lang="en">
+                    GIS to show the progress of the rebuild of the town of Chañaral
+                </trans>
+                <trans lang="es">
+                    SIG para ver el progreso de la reconstruccion de la ciudad de Chañaral
+                </trans>                
+            </project>
+            <project tech="Cordoba, NodeJS, Django, Django REST, bootstrap 4">
+                <trans lang="en">
+                    Mobile app to field survey, using Android tablets aproaching GPS tracking and positioning
+                </trans>
+                <trans lang="es">
+                    App móvil para encuestas en terreno, usando tablets Android con la ventaja del seguimiento 
+                    y posicionamiento GPS.
+                </trans>                
+            </project>
+            <project tech="php, leaflet">
+                <trans lang="en">
+                    Web Mapping with visualization, draw, kml read/write developing a leaflet plugin.
+                </trans>
+                <trans lang="es">
+                    Mapas web con visualizacion, dibujo, lectura/escritura de kml desarollando un plugin leaflet
+                </trans>                
+            </project>
+            <project tech="perl, nginx">
+                <trans lang="en">
+                    Build of a SMTP gateway developing a perl nginx module to deliver SMTP mail to the clients of 
+                    a small VPS company
+                </trans>
+                <trans lang="es">
+                    Creación de pasarela SMTP desarollando un modulo nginx para distribuir el correo SMTP a los 
+                    cliente de una pequeña empresa de VPS.
+                </trans>                
+            </project>
+        </job>
+        <job since="2017-11" until="2020-02">
+            <for>Retargeting</for>
+            <project tech="ES6, pulumi, aws, puppet">
+                <trans lang="en">
+                    Infrastructure migration to AWS using infrastructure as a code (IaaC) using autoscale, RDS, Route53 and 
+                    compute services
+                </trans>
+                <trans lang="es">
+                    Migracion de intraestructura a AWS usando intraestructura como codigo (IaaC) con auto escalado, RDS, Route53
+                    y compute services
+                </trans>
+            </project>
+            <project tech="python, Django, MongoDB, django-mongoengine, Django REST">
+                <trans lang="en">
+                    Perimetral authentication and authorization system
+                </trans>
+                <trans lang="es">
+                    Sistema de autenticación y autorizacion perimetral
+                </trans>                
+            </project>
+            <project tech="Django, REST API, HTTP, Proxy, Streaming, AWS S3, AWS Athena">
+                <trans lang="en">
+                    Middleware manager to manage permissions for internal services, some process need buffered 
+                    stream output.
+                </trans>
+                <trans lang="es">
+                    Administrador middleware para manejar permisos para servicios internos, algunos procesos 
+                    necesitaron salidas en búfer y salidas tipo stream.
+                </trans>
+            </project>
+            <project tech="puppet">
+                <trans lang="en">
+                    Orchestration
+                </trans>
+                <trans lang="es">
+                    Orquestación
+                </trans>                
+            </project>
+            <project tech="GitLab CI">
+                Pipelines
+            </project>
+            <project tech="python/Django, REST API, KnockoutJS, bootstrap 4, datatables">
+                <trans lang="en">
+                    Product management application for retail store.
+                </trans>
+                <trans lang="es">
+                    Aplicacion para administrar productos para una tienda de retail.
+                </trans>                
+            </project>
+            <project tech="python, Django, XML, PyFilesystem, multiprocessing">
+                <trans lang="en">
+                    Extension of the previously mentioned app for export products to Salesforce and 
+                    WebSphere commerce platforms.
+                </trans>
+                <trans lang="es">
+                    Estensión para la aplicacion mencionada anteriormente para exportar productos a 
+                    las plataformas de commerce Salesforce y WebSphere.
+                </trans>
+            </project>
+            <project tech="php, Laravel 4">
+                <trans lang="en">
+                    Product Catalog
+                </trans>
+                <trans lang="es">
+                    Catálogo de productos
+                </trans>                
+            </project>
+            <project tech="Scala">
+                <trans lang="en">
+                    Basic scala programming
+                </trans>
+                <trans lang="es">
+                    Programación en scala básica
+                </trans>                
+            </project>
+        </job>
+    </jobs>
+</cv>
