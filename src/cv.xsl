@@ -12,6 +12,7 @@
     <xsl:variable name="trans__experience" as="xs:string" select="if ($lang = 'es') then 'Experiencia' else 'Experience'" />
     <xsl:variable name="trans__since" as="xs:string" select="if ($lang = 'es') then 'Desde' else 'Since'" />
     <xsl:variable name="trans__until" as="xs:string" select="if ($lang = 'es') then 'hasta' else 'until'" />
+    <xsl:variable name="trans__more_jobs" as="xs:string" select="if ($lang = 'es') then 'Más {n} trabajos anteriores, para más información preguntar directamente' else 'And {n} more previous jobs, for more information please ask directly'" />
     <xsl:template name="trans">
         <xsl:choose>
             <xsl:when test="@lang = $lang">
@@ -138,6 +139,9 @@
                             </xsl:for-each>
                             </tbody>
                         </table>
+                        <xsl:if test="cv/jobs/@more">
+                            <div class="more jobs"><xsl:value-of select="replace($trans__more_jobs, '\{n\}', cv/jobs/@more)" />.</div>
+                        </xsl:if>
                     </section>
                 </content>
             </body>

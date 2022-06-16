@@ -164,11 +164,16 @@ content > section.experience table td ul {
     margin-top: 0.7rem;
 }
 
-content>section.experience table td li {
+content > section.experience table td li {
     padding: 0.2rem;
     font-weight: normal;
 }
 
-content>section.experience table td li small {
+content > section.experience table td li small {
     font-weight: bold;
+}
+
+content > section.experience div.more.jobs {
+    margin-top: 2rem;
+    font-style: italic
 }
