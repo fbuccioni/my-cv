@@ -160,6 +160,16 @@
             </for>
             <positions>Senior Backend Developer / API Integrator / Consulting / Team leader</positions>
             <location>Santiago, Chile</location>
+            <project tech="python, FastAPI, Azure functions, Azure CosmosDB, Azure CosmosDB API for MongoDB, MongoDB">
+                <trans lang="en">
+                    Backend of an application web and mobile to show details as costs, trips and behavior
+                    by car insurance company.
+                </trans>
+                <trans lang="es">
+                    Backend de una aplicacion web y móvil para mostrar detalles como costos, viajes y 
+                    comportamiento por una compañia aseguradora de automóviles.
+                </trans>                
+            </project>
             <project tech="python, Django, Django REST, Django JET, multiprocessing, webhook arq, queue arq, API integration">
                 <trans lang="en">
                     Intermediate app to manage the logistics of assurance car GPS, integrating Octo Telematics, courier 
