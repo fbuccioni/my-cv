@@ -1,6 +1,5 @@
 body, html {
     width: 100vw;
-    min-height: 100%;
     margin: 0;
     padding: 0;
     font-family: Trebuchet MS, "Droid Sans";
@@ -9,12 +8,30 @@ body, html {
 }
 
 body {
-    height: 100%;
+    display: flow-root;
+    position: relative;
 }
 
 @media screen {
     body, html, td, th {
         font-size: 11pt;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        width: 1300px;
+        margin: 0 auto;
+        border-left: 1px solid #222;
+        box-shadow: 0 0 0.5rem #888;
+    }
+
+    main {
+        width: calc(1300px - 19.1rem) !important;
+    }
+
+    aside {
+        left: calc(1300px - 19rem) !important;
     }
 }
 
@@ -33,12 +50,20 @@ a:visited {
     color: rgb(54, 108, 174);
 }
 
+main {
+    width: calc(100vw - 19.1rem);
+}
+
 aside {
-    float: right;
-    width: 18.5rem;
+    width: 19rem;
     background: rgb(63, 55, 69);
-    height: 100%;
+    height: inherit;
     display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    box-shadow: 0 0 0.5rem #444;
 }
 
 aside, aside * {
@@ -97,17 +122,18 @@ aside .star-hollow {
     color: #888;
 }
 
-header, content {
-    float: left;
-    min-height: 10rem;
-    width: calc(100vw - 18.5rem);
-}
-
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 250%;
+    width: 100%;
+}
+
+header h1 {
+    color: rgb(53, 45, 59);
+    text-shadow: 0.5px 0.5px 5px rgba(93, 75, 89, 0.7);
+    margin: 30px 0 20px 0;
 }
 
 content > section {
