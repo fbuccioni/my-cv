@@ -10,43 +10,42 @@ const baseDir = (() => {
     return d ? path.resolve(path.join(d, '..')) : path.resolve('..');
 })();
 
-async function generateHTML(lang) {
-    console.log("===> Generating HTML...");
-    const { stdout, stderr } = await exec(
-        `npx xslt3 -t -s:${baseDir}/src/cv.xml -xsl:${baseDir}/src/cv.xsl -o:${baseDir}/dist/cv.${lang}.html lang=${lang}`
-    );
+async function runCommand(command) {
+    const { stdout, stderr } = await exec(command);
 
     if (stderr)
         console.error(stderr);
 
     if (stdout)
         console.log(stdout);
+}    
 
-    console.log("===> PDF generated.");
+async function generateHTML(lang) {
+    console.log(`==> [${lang}] Generating HTML using \`saxon-js\`...`);
+    await runCommand(
+        `npx xslt3 -t -s:${baseDir}/src/cv.xml -xsl:${baseDir}/src/cv.xsl -o:${baseDir}/dist/cv.${lang}.html lang=${lang}`
+    );
+    console.log(`==> [${lang}] HTML generated.`);
 }
 
 async function generatePDF(lang) {
-    console.log("===> Generating PDF using commandline `electron-pdf`...");
+    console.log(`==> [${lang}] Generating using \`electron-pdf\`...`);
 
-    const { stdout, stderr } = await exec(
+    await runCommand(
         `npx electron-pdf ${baseDir}/dist/cv.${lang}.html ${baseDir}/dist/cv.${lang}.pdf`
     );
 
-    if (stderr)
-        console.error(stderr);
-
-    if (stdout)
-        console.log(stdout);
-
-    console.log("===> PDF generated.");
+    console.log(`==> [${lang}] PDF generated.`);
 }
 
 async function build() {
-    for (let lang of langs) {
-        console.log(`==> Processing language: ${lang}`);
-        await generateHTML(lang);        
-        await generatePDF(lang);
-    };
+    console.log(`=> Processing languages: ${langs.join(', ')}`);
+    await Promise.all(
+        langs.map(async lang => {
+            await generateHTML(lang);        
+            await generatePDF(lang);
+        })
+    );
 }
 
 build()
