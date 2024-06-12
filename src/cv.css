@@ -111,6 +111,15 @@ aside table.skills td {
     vertical-align: middle;
 }
 
+aside table.skills tr.english-level > td {
+    padding-bottom: 0.5rem;
+}
+
+aside table.skills tr.english-level > td:last-of-type {
+    font-weight: bold;
+    text-align: center;
+}
+
 aside table.skills td.rate {
     font-weight: bold;
     padding-left: 0.5rem;

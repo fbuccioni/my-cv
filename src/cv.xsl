@@ -14,6 +14,7 @@
     <xsl:variable name="trans__to" as="xs:string" select="if ($lang = 'es') then 'hasta' else 'to'" />
     <xsl:variable name="trans__more_jobs" as="xs:string" select="if ($lang = 'es') then 'Más {n} trabajos anteriores, para más información preguntar directamente' else 'And {n} more previous jobs, for more information please ask directly'" />
     <xsl:variable name="trans__relocatable" as="xs:string" select="if ($lang = 'es') then 'Reubicable' else 'Relocatable'" />
+<xsl:variable name="trans__englishlevel" as="xs:string" select="if ($lang = 'es') then 'Nivel de inglés' else 'English level'" />
     <xsl:template name="trans">
         <xsl:choose>
             <xsl:when test="@lang = $lang">
@@ -143,6 +144,12 @@
                     <section>
                         <div class="title"><xsl:value-of select="$trans__skills" /></div>
                         <table class="skills" cellpadding="0" cellspacing="0" border="0">
+                        <xsl:if test="cv/skills/english">
+                            <tr class="english-level">
+                                <td>English level</td>
+                                <td><xsl:value-of select="cv/skills/english" /></td>
+                            </tr>
+                        </xsl:if>
                         <xsl:for-each select="cv/skills/skill">
                             <tr>
                                 <td><xsl:value-of select="." /></td>
