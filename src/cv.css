@@ -10,6 +10,7 @@ body, html {
 body {
     display: flow-root;
     position: relative;
+    box-shadow: 0 0 0.5rem #888;
 }
 
 @media screen {
@@ -23,7 +24,6 @@ body {
         width: 1300px;
         margin: 0 auto;
         border-left: 1px solid #222;
-        box-shadow: 0 0 0.5rem #888;
     }
 
     main {
@@ -61,9 +61,12 @@ aside {
     display: block;
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 0.5px;
     height: 100%;
-    box-shadow: 0 0 0.5rem #444;
+    box-shadow: 
+        0.5px -1px calc(0.5rem - 1px) #444, 
+        -0.5px -1px calc(0.5rem - 1px) rgba(68, 68, 68, 0.5)
+    ;
 }
 
 aside, aside * {
