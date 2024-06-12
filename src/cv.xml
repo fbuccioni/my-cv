@@ -73,36 +73,152 @@
         </link>
     </links>
     <personal>
-        <location relocation="yes">Santiago, Chile</location>
+        <location relocatable="no">
+            <trans lang="en">Chile, South America, Earth, Milky Way</trans>
+            <trans lang="es">Chile, Sudamérica, Tierra, Vía Láctea</trans>
+        </location>
         <phone>+56 9 87543409</phone>
         <email>felipe.buccioni@gmail.com</email>
     </personal>
     <skills max-rate="5">
+        <skill rate="4">Development planning</skill>
+        <skill rate="4">Problem solving</skill>
+        <skill rate="3">Team management</skill>
+        <skill rate="3">Infrastructure design</skill>
+        <skill rate="3">Database design</skill>
+        <skill rate="4">Software design</skill>
+        <skill rate="3">Software architecture</skill>
+        <skill rate="4">Design patterns</skill>
+        <skill rate="3">Query optimization</skill>
+        <skill rate="4">Integration</skill>
+
+        <skill rate="5">Plugin/Library dev</skill>
+        <skill rate="5">Backend development</skill>
+        <skill rate="4">REST API development</skill>
+
+        <skill rate="4">TypeScript</skill>
+        <skill rate="5">JavaScript (ES)</skill>
+        <skill rate="5">Python</skill>
+        <skill rate="5">Bash</skill>
+
+        <skill rate="3">Express</skill>
+        <skill rate="3">Inversify</skill>
         <skill rate="2">Angular</skill>
-        <skill rate="4">Audio streaming</skill>
+        <skill rate="5">Django REST</skill>
+        <skill rate="4">FastAPI</skill>
+        <skill rate="4">CSS</skill>
+
         <skill rate="3">AWS</skill>
         <skill rate="4">AWS Lambda</skill>
-        <skill rate="5">Bash</skill>
-        <skill rate="4">CSS</skill>
-        <skill rate="5">Django</skill>
-        <skill rate="5">Django REST</skill>
-        <skill rate="4">Docker</skill>
-        <skill rate="4">Documental databases</skill>
+        <skill rate="3">AWS Cloudformation</skill>
         <skill rate="3">ffmpeg</skill>
-        <skill rate="3">FastAPI</skill>
-        <skill rate="4">GeoDjango</skill>
+        <skill rate="4">Docker</skill>
+        <skill rate="5">Linux</skill>
+        <skill rate="3">Pulumi</skill>
+        <skill rate="3">Networking</skill>
+
         <skill rate="5">GIS</skill>
-        <skill rate="5">leaflet</skill>
-        <skill rate="5">Python</skill>
-        <skill rate="4">NodeJS/JavsScript</skill>
-        <skill rate="4">Mapserver</skill>
-        <skill rate="4">Relational databases</skill>
-        <skill rate="5">REST API</skill>
+        <skill rate="4">Media streaming</skill>
         <skill rate="4">RPA</skill>
-        <skill rate="4">Video streaming</skill>
-    </skills>
+
+        <skill rate="4">Documental databases</skill>
+        <skill rate="4">Relational databases</skill>
+
+        <skill rate="4">GeoDjango</skill>
+        <skill rate="5">leaflet</skill>
+        <skill rate="5">OpenSeadragon</skill>
+        <skill rate="4">Mapserver</skill>
+    </skills>    
     <jobs more="9">
-        <job since="2020-03">
+        <job from="2022-10" to="2024-03">
+            <for>Dily / TransaTuAuto</for>
+            <project>
+                <trans lang="en">
+                    Software and infrastructure design advisory
+                </trans>
+                <trans lang="es">
+                    Asesoría en diseño de software e infraestructura
+                </trans>
+            </project>
+            <project tech="Design patterns (Hexagonal, Repository, Aggregate, Anti corruption layers), InversifyJS, express, knex, advanced TypeScript typing">
+                <trans lang="en">
+                    Backend developer in node.js and TypeScript
+                </trans>
+                <trans lang="es">
+                    Desarrollador backend en node.js y TypeScript
+                </trans>
+            </project>
+            <project tech="Webhook, Queue, Lambda, ETL">
+                <trans lang="en">
+                    Integration development
+                </trans>
+                <trans lang="es">
+                    Desarrollo de integraciones
+                </trans>
+            </project>
+            <project tech="Design patterns, Anti corruptuin layers">
+                <trans lang="en">
+                    Design of plugin system with abstract classes and interfaces to different providers on different parts of the software
+                </trans>
+                <trans lang="es">
+                    Diseño de sistema de plugins con clases e interfaces abstractas para diferentes proveedores en diferentes partes del software
+                </trans>
+            </project>
+            <project tech="TypeScript, AWS, AWS CDK, AWS lambda, AWS SQS, AWS Secrets manager">
+                <trans lang="en">
+                    Payout platform with isolated infrastructure
+                </trans>
+                <trans lang="es">
+                    Plataforma de pagos con infraestructura aislada
+                </trans>
+            </project>
+            <project tech="Design patterns">
+                <trans lang="en">
+                    Improvement of custom framework based on different design patterns
+                </trans>
+                <trans lang="es">
+                    Mejora de framework personalizado basado en diferentes patrones de diseño
+                </trans>
+            </project>
+            <project tech="AWS, BitBucket, bash, Linux">DevOps</project>
+            <project tech="SQL, Query optimization">
+                <trans lang="en">
+                    SQL Complex reporting queries and query optimization
+                </trans>
+                <trans lang="es">
+                    Consultas de reportes SQL complejas y optimización de consultas
+                </trans>
+            </project>
+            <project tech="php, Yii2">
+                <trans lang="en">
+                    Mantainance of legacy software
+                </trans>
+                <trans lang="es">
+                    Mantenimiento de software legado
+                </trans>
+            </project>
+            <project tech="Design patterns, Anti corruption layers">
+                <trans lang="en">
+                    Interoperability of legacy and new software via anti corruption layer
+                </trans>
+                <trans lang="es">
+                    Interoperabilidad de software legado y nuevo vía capa de anti corrupción
+                </trans>
+            </project>
+            <project tech="python">
+                <trans lang="en">RPA optimization and improvement</trans>
+                <trans lang="es">Optimización y mejora de RPA</trans>
+            </project>
+            <project tech="ES2023, npm">
+                <trans lang="en">Development of node.js library to connect to Shinkansen 
+                    finnance provider porting their python package
+                </trans>
+                <trans lang="es">Desarrollo de librería node.js para conectar con proveedor 
+                    financiero Shinkansen portando su paquete python
+                </trans>
+            </project>
+        </job>
+        <job from="2020-03" to="2022-10">
             <for>
                 <trans lang="en">Freelance (as Aequum)</trans>
                 <trans lang="es">Freelance (como Aequum)</trans>
@@ -153,7 +269,7 @@
                 </trans>
             </project>
         </job>
-        <job since="2020-03">
+        <job from="2020-03" to="2022-08">
             <for>
                 <trans lang="en">Kudzu logistics (As Freelance)</trans>
                 <trans lang="es">Kudzu logistics (Como Freelance)</trans>
@@ -245,7 +361,7 @@
                 </trans>                
             </project>
         </job>
-        <job since="2015-05" until="2018-03">
+        <job from="2015-05" to="2018-03">
             <for>Freelance</for>
             <project tech="django, python, GDAL, JavaScript, Leaflet, PostgreSQL, PostGIS, MapServer">
                 <trans lang="en">
@@ -311,7 +427,7 @@
                 </trans>                
             </project>
         </job>
-        <job since="2017-11" until="2020-02">
+        <job from="2017-11" to="2020-02">
             <for>Retargeting</for>
             <project tech="ES6, pulumi, aws, puppet">
                 <trans lang="en">
