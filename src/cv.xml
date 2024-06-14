@@ -132,6 +132,61 @@
         <skill rate="4">Mapserver</skill>
     </skills>    
     <jobs more="9">
+        <job from="2024-04">
+            <for>Freelance</for>
+            <project tech="ES/JavsScript, MS-CFB, JSDoc">
+                <trans lang="en">
+                    Library load a MDF, high resolution tile format based in MS-CFB container format, 
+                    using binary I/O to work with files inside the container and caching with blobs
+                </trans>
+                <trans lang="es">
+                    Librería para cargar MDF, formato de mosaico de alta resolución basado en el formato
+                    de contenedor MS-CFB, usando E/S binaria para trabajar con archivos dentro del 
+                    contenedor y caché con blobs
+                </trans>
+            </project>
+            <project trch="ES/JavaScript, OpenSeadragon, npm, JSDoc">
+                <trans lang="en">
+                    Plugin for OpenSeadragon to load MDF tiles as tile source
+                </trans>
+                <trans lang="es">
+                    Plugin para OpenSeadragon para cargar mosaicos MDF como "tile source"
+                </trans>
+            </project>
+            <project tech="ES/JavaScript, OpenSeadragon, npm, DOM, fabric.js, JSDoc">
+                <trans lang="en">			 
+                    Plugin for OpenSeadragon to draw a rule to measure, able to use custom
+                    measure units, presserving scales and positions when zoom or pan.
+                </trans>
+                <trans lang="es">
+                    Plugin para OpenSeadragon para dibujar una regla para medir, capaz de usar
+                    unidades de medida personalizadas, preservando escalas y posiciones al 
+                    hacer zoom o pan.
+                </trans>
+            </project>
+            <project tech="ES/JavaScript, OpenSeadragon, npm, DOM, JSDoc">
+                <trans lang="en">
+                    Plugin for OpenSeadragon to pan when mouse are in the edges of the viewer
+                </trans>
+                <trans lang="es">
+                    Plugin para OpenSeadragon para hacer pan cuando el mouse está en los bordes
+                    del visor
+                </trans>
+            </project>
+            <project tech="ES/JavaScript, OpenSeadragon, npm, DOM, fabric.js, JSDoc">
+                <trans lang="en">
+                    Plugin for OpenSeadragon to draw shapes as annotations, associate text
+                    to the annotations and calculate areas, perimeters and length with custom
+                    measure units, presserving scales and positions when zoom or pan.
+                </trans>
+                <trans lang="es">
+                    Plugin para OpenSeadragon para dibujar formas como anotaciones, asociar
+                    texto a las anotaciones y calcular áreas, perímetros y longitudes con
+                    unidades de medida personalizadas, preservando escalas y posiciones al
+                    hacer zoom o pan.
+                </trans>
+            </project>
+        </job>
         <job from="2022-10" to="2024-03">
             <for>Dily / TransaTuAuto</for>
             <project>
