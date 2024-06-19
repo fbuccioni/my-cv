@@ -40,6 +40,11 @@ body {
     body, html, td, th {
         font-size: 8pt;
     }
+
+    body, html {
+        background-color: transparent;
+        box-shadow: none;
+    }
 }
 
 a {
