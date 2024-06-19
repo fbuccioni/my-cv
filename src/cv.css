@@ -153,11 +153,11 @@ content > section {
 }
 
 content > section > * {
-    padding: 0 1rem;
+    padding: 0 0.6rem;
 } 
 
 content > section > .title {
-    padding: 0 0.5rem;
+    padding: 0 0.3rem;
     border-bottom: 1px solid #000;
     margin-bottom: 1rem;
 }
@@ -192,9 +192,10 @@ content > section.experience table td {
 }
 
 content > section.experience table td:first-of-type {
-    width: 15rem !important;
+    width: 16rem !important;
     vertical-align: top;
     font-weight: bold;
+    padding-right: 1.5rem;
 }
 
 content > section.experience table td ul {
