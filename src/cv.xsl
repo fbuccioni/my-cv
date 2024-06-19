@@ -75,6 +75,19 @@
                         </section>
                         <section class="experience">
                             <div class="title"><xsl:value-of select="$trans__experience" /></div>
+                            <xsl:if test="cv/jobs/@highlights = 'yes'">
+                            <div class="highlights">
+                                <xsl:if test="$lang = 'en'">
+                                    Because of my long career, this is my highlighted experience, for more information 
+                                    please ask me directly.
+                                </xsl:if>
+                                <xsl:if test="$lang = 'es'">
+                                    Debido a mi larga trayectoria, esta es mi experiencia destacada, para mas información
+                                    por favor consulteme personalmente.
+                                </xsl:if>
+                                <xsl:variable name="trans__experience_highlights" as="xs:string" select="if ($lang = 'es') then 'Esta es solo experiencia destacada' else 'Experience'" />
+                            </div>
+                            </xsl:if>
                             <table cellpadding="0" cellspaging="0" border="0">
                                 <tbody>
                                 <xsl:for-each select="cv/jobs/job">

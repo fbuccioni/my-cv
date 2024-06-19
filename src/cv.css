@@ -187,6 +187,12 @@ content div.title {
     font-size: 170%;
 }
 
+content > section.experience div.highlights {
+    margin-bottom: 1rem;
+    font-size: 90%;
+    font-style: italic;
+}
+
 content > section.experience table td {
     width: 80%;
 }
