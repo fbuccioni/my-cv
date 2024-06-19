@@ -131,9 +131,9 @@
         <skill rate="5">OpenSeadragon</skill>
         <skill rate="4">Mapserver</skill>
     </skills>    
-    <jobs more="9">
+    <jobs highlights="yes">
         <job from="2024-04">
-            <for>Freelance</for>
+            <for>Modulonet</for>
             <project tech="ES/JavsScript, MS-CFB, JSDoc">
                 <trans lang="en">
                     Library load a MDF, high resolution tile format based in MS-CFB container format, 
@@ -275,130 +275,48 @@
                 </trans>
             </project>
         </job>
-        <job from="2020-03" to="2022-10">
-            <for>
-                <trans lang="en">Freelance (as Aequum)</trans>
-                <trans lang="es">Freelance (como Aequum)</trans>
-            </for>
-            <project tech="php, php 7, API, phpdoc">
-                <trans lang="en">
-                    Development of a library API to sign PDF files using a commandline tool as backend
-                </trans>
-                <trans lang="es">
-                    Desarollo de una API biblioteca para firmar archivos PDF con una herramienta de linea 
-                    de comandos como backend
-                </trans>
-            </project>
-            <project tech="python, Django, Django REST, Django JET, GeoDjango, Google Geocode, Mailchimp">
-                <trans lang="en">
-                    Lead and backend developer + DevOps for refactor of somoscircular.com processes
-                </trans>
-                <trans lang="es">
-                    Desarollador lider y backend + DevOps para refactorizar el proceso de somoscircular.com
-                </trans>
-            </project>
-            <project tech="python, Django, Django REST, Django JET, JWT Auth, GeoDJango">
-                <trans lang="en">
-                    Co-Project Leader/Backend developer of app/platform for COVID-19 traceability for the Aysén 
-                    Region in 1 month, also act like problem solver with the deployment on iOS with ionic
-                </trans>
-                <trans lang="es">
-                    Co lider de proyecto/Desarollador backend de aplicacion/plataforma de trazabilidad para el
-                    COVID-19 para la rebion de Aysén en 1 mes, tambien actué como solucionador de problemas con
-                    ionic y iOS.
-                </trans>
-            </project>
-            <project tech="python, Django, Django REST, Django JET">
-                <trans lang="en">
-                    Co-Project Leader/Backend developer of long form for bank application in 3 weeks
-                </trans>
-                <trans lang="es">
-                    Co lider de proyecto/Desarollador backend para un largo formulario de aplicación para bancos
-                    en 3 semanas
-                </trans>
-            </project>
-            <project tech="python, OpenCV, TKInter, multiprocessing, sharedmem, IPC, Image processing, pyautogui">
-                <trans lang="en">
-                    RPA Robot who enters bank data to ERP software
-                </trans>
-                <trans lang="es">
-                    Robot RPA que ingresa datos a un software ERP
-                </trans>
-            </project>
-        </job>
         <job from="2020-03" to="2022-08">
-            <for>
-                <trans lang="en">Kudzu logistics (As Freelance)</trans>
-                <trans lang="es">Kudzu logistics (Como Freelance)</trans>
-            </for>
+            <for>Kudzu logistics</for>
             <positions>Senior Backend Developer / API Integrator / Consulting / Team leader</positions>
             <location>Santiago, Chile</location>
-            <project tech="python, FastAPI, Azure functions, Azure CosmosDB, Azure CosmosDB API for MongoDB, MongoDB">
+            <project tech="python, FastAPI, Azure functions, Azure CosmosDB, Azure CosmosDB API for MongoDB, MongoDB, serverless arch">
                 <trans lang="en">
-                    Backend of an application web and mobile to show details as costs, trips and behavior
-                    by car insurance company.
+                    Planning and developer of REST service for a car insurance company to quotate, request and show details as costs,
+                    trips, behavior and stats from cars insured by company.
                 </trans>
                 <trans lang="es">
-                    Backend de una aplicacion web y móvil para mostrar detalles como costos, viajes y 
-                    comportamiento por una compañia aseguradora de automóviles.
+                    Planificación y desarrollo de servicio REST para una compañía de seguros de auto para cotizar, solicitar y mostrar
+                    detalles como costos, viajes, comportamiento y estadísticas de los autos asegurados por la compañía.
                 </trans>                
             </project>
-            <project tech="python, Django, Django REST, Django JET, multiprocessing, webhook arq, queue arq, API integration">
+            <project tech="Design patterns, python, Django, Django REST, Django JET, multiprocessing, webhook arch, queue arch, API integration, OCTO web services">
                 <trans lang="en">
-                    Intermediate app to manage the logistics of assurance car GPS, integrating Octo Telematics, courier 
-                    clients and logistics company
+                    Planning and development of intermediate app to manage the logistics of GPS devices between the insurance company,
+                    telematics company (Octo Telematics), logistics company and couriers.
                 </trans>
                 <trans lang="es">
-                    Apliación intermediaria para el manejo de la logistica de GPS de aseguradoras de auto, integrando Octo 
-                    Telemetics, distribuidores y companias de logística
+                    Planificación y desarrollo de aplicación intermedia para gestionar la logística de los dispositivos GPS entre la
+                    compañía de seguros, la compañía telemática (Octo Telematics), la compañía de logística y los mensajeros.
                 </trans>                
             </project>
-            <project tech="python, API integration">
+            <project tech="python, API integration, XML, REST, RPA, selenium">
                 <trans lang="en">
-                    Python package to connect with DHL XML Services
+                    Development of Python packages to connect with DHL XML Services and FedEx/TNT Chile API
                 </trans>
                 <trans lang="es">
-                    Paquete python para conectar con DHL XML Services
+                    Desarrollo de paquetes Python para conectar con los servicios XML de DHL y la API de FedEx/TNT Chile
                 </trans>                
             </project>
-            <project tech="python, API integration">
-                <trans lang="en">
-                    Python package to connect with FedEx/TNT Chile API
-                </trans>
-                <trans lang="es">
-                    Paquete python para conectar con API FedEx/TNT Chile
-                </trans>                
+            <project tech="python, String phonetics/coincidences pattern, AWS S3, PDF manipulation">
+                <trans lang="en">Integration with FedEx/TNT Chile</trans>
+                <trans lang="es">Integración con FedEx/TNT Chile</trans>                
             </project>
-            <project tech="python, String phonetics/coincidences pattern, AWS S3, PDF reading">
+            <project tech="python, Web2Py, Jumpseller API, API Integration, Woocommerce, Wordpress plugins, WP REST, Shopify API">
                 <trans lang="en">
-                    Integration with FedEx/TNT Chile
+                    Integration of shipping with Jumpseller, Woocommerce and Shopify
                 </trans>
                 <trans lang="es">
-                    Itegración con FedEx/TNT Chile
-                </trans>                
-            </project>
-            <project tech="python, Web2Py, Shopify API, API Integration">
-                <trans lang="en">
-                    Integration of shipping with Shopify
-                </trans>
-                <trans lang="es">
-                    Integracion de envíos con Spotify
-                </trans>                
-            </project>
-            <project tech="python, Web2Py, Jumpseller API, API Integration">
-                <trans lang="en">
-                    Integration of shipping with Jumpseller
-                </trans>
-                <trans lang="es">
-                    Integracion de envíos con Jumpseller
-                </trans>                
-            </project>
-            <project tech="python, Web2Py, php, WordPress, Woocommerce, Wordpress plugins, WP REST">
-                <trans lang="en">
-                    Integration of shipping with Woocoommerce
-                </trans>
-                <trans lang="es">
-                    Integracion de envíos con Woocommerce
+                    Integracion de envíos con Jumpseller, Woocommerce and Shopify
                 </trans>                
             </project>
             <project tech="php, WordPress, Woocommerce, Wordpress plugins, WP REST">
@@ -418,70 +336,66 @@
                 </trans>                
             </project>
         </job>
-        <job from="2015-05" to="2018-03">
-            <for>Freelance</for>
-            <project tech="django, python, GDAL, JavaScript, Leaflet, PostgreSQL, PostGIS, MapServer">
+        <job from="2022-04" to="2022-06">
+            <for>Modulonet</for>
+            <project tech="php, php 7, API, phpdoc">
                 <trans lang="en">
-                    GIS for planning, view resources and show research studies of the Nonguen national reserve 
-                    and towns nearby showing different cartography formats from a cloud file repository or a 
-                    database, the possibility of administrate the options to show labels, styles 
-                    (Developing a SLD plugin) for Leaflet, other data using GDAL library and elevation cloud or
-                    image data using UMN MapServer.
+                    Development of a library API to sign PDF files using a commandline tool as backend
                 </trans>
                 <trans lang="es">
-                    SIG para planificacion, ver recursos y mostrar estudios de investigacion de la reserva nacional
-                    Nonguén y cuidades aledañas mostrando cartografía en diferentes formatos, desde un repositorio de 
-                    archivos cloud o una base de datos, la posibilidad de administrar opciones de mostrar etiquetas,
-                    estilos (Desarollando un plugin para SLD) en leaflet, otros datos usando la libreria GDAL y nubes 
-                    de puntos o datos de imagen usando UMN MapServer.
+                    Desarollo de una API biblioteca para firmar archivos PDF con una herramienta de linea 
+                    de comandos como backend
                 </trans>
             </project>
-            <project tech="Huawei FusionSphere, ha-proxy, nginx, MongoDB, tomcat, git, GitLab, bash, java">
+        </job>
+        <job from="2021-04" to="2021-05">
+            <for>Somoscircular</for>
+            <project tech="python, Django, Django REST, Django JET, GeoDjango, Google Geocode, Mailchimp, Twillio">
                 <trans lang="en">
-                    Design of project to upgrade of a critical government legacy web application considering 
-                    autoscale of the web applications and database cluster, deployable dev, prod and qa enviroments, 
-                    distributed virtualization, VCS and code tickets management
+                    Lead and backend developer on refactor the client and management processes of 
+                    somoscircular.com
                 </trans>
                 <trans lang="es">
-                    Diseño de proyecto para mejora de una aplicacion web heredada pero importante de gobierno, considerando
-                    auto escalamiento de la apliacion web usando cluster de bases de datos, despliegue de ambientes dev, prod 
-                    y qa, virtualizacion distribuida, VCS y administracion de tickets.
+                    Desarollador lider y backend en refacotizacion de los procesos de cliente y manejo de 
+                    somoscirular.com
+                </trans>
+            </project>for
+        </job>
+        <job from="2020-12" to="2021-01">
+            <for>ETYCC S.A</for>
+            <project tech="python, Django, Django REST, Django JET, JWT Auth, GeoDJango">
+                <trans lang="en">
+                    Co-Project Leader/Backend developer of app/platform for COVID-19 traceability for the Aysén 
+                    Region in 1 month, also act like problem solver with the deployment on iOS with ionic
+                </trans>
+                <trans lang="es">
+                    Co lider de proyecto/Desarollador backend de aplicacion/plataforma de trazabilidad para el
+                    COVID-19 para la rebion de Aysén en 1 mes, tambien actué como solucionador de problemas con
+                    ionic y iOS.
                 </trans>
             </project>
-            <project tech="MapServer, MapCache, nginx, leaflet, GDAL Image processing with TMS strategy, advanced image compression">
+        </job>
+        <job from="2020-09" to="2020-09">
+            <for>ETYCC S.A</for>
+            <project tech="python, Django, Django REST, Django JET">
                 <trans lang="en">
-                    GIS to show the progress of the rebuild of the town of Chañaral
+                    Co-Project Leader/Backend developer of long form for bank application in 3 weeks
                 </trans>
                 <trans lang="es">
-                    SIG para ver el progreso de la reconstruccion de la ciudad de Chañaral
-                </trans>                
+                    Co lider de proyecto/Desarollador backend para un largo formulario de aplicación para bancos
+                    en 3 semanas
+                </trans>
             </project>
-            <project tech="Cordoba, NodeJS, Django, Django REST, bootstrap 4">
+        </job>
+        <job from="2020-06" to="2020-09">
+            <for>Think2Process</for>
+            <project tech="python, OpenCV, TKInter, multiprocessing, sharedmem, IPC, Image processing, pyautogui, multiplatform Python, Design patterns">
                 <trans lang="en">
-                    Mobile app to field survey, using Android tablets aproaching GPS tracking and positioning
+                    Multiplatform (Windows and linux) RPA Robot who enters bank data to ERP softwar
                 </trans>
                 <trans lang="es">
-                    App móvil para encuestas en terreno, usando tablets Android con la ventaja del seguimiento 
-                    y posicionamiento GPS.
-                </trans>                
-            </project>
-            <project tech="php, leaflet">
-                <trans lang="en">
-                    Web Mapping with visualization, draw, kml read/write developing a leaflet plugin.
+                    Robot RPA multiplataforma (Windows y linux) que ingresa datos a un software ERP
                 </trans>
-                <trans lang="es">
-                    Mapas web con visualizacion, dibujo, lectura/escritura de kml desarollando un plugin leaflet
-                </trans>                
-            </project>
-            <project tech="perl, nginx">
-                <trans lang="en">
-                    Build of a SMTP gateway developing a perl nginx module to deliver SMTP mail to the clients of 
-                    a small VPS company
-                </trans>
-                <trans lang="es">
-                    Creación de pasarela SMTP desarollando un modulo nginx para distribuir el correo SMTP a los 
-                    cliente de una pequeña empresa de VPS.
-                </trans>                
             </project>
         </job>
         <job from="2017-11" to="2020-02">
@@ -557,6 +471,138 @@
                 </trans>
                 <trans lang="es">
                     Programación en scala básica
+                </trans>                
+            </project>
+        </job>
+        <job from="2017-01" to="2017-06">
+            <for>
+                VRIM Universidad de Concepción / Asociacion de municipalidades para la preservacion de la 
+                biodiversidad del territorio Nonguén y otros ecosistemas
+            </for>
+            <project tech="Infrastructure design, Software design">
+                <trans lang="en">
+                    Planner, architect and developer of a GIS platform for territory planning also being oriented 
+                    to show to the community, the Nonguén national reserve alongside nearby ecosystems and all the 
+                    collected data from university researches, hydric resources, flora and fauna and more.
+                </trans>
+                <trans lang="es">
+                    Planificador, archuitecto y desarrollador de una plataforma GIS para planificación territorial 
+                    también orientada a mostrar a la comunidad, la reserva nacional Nonguén junto a los ecosistemas 
+                    cercanos y todos los datos recopilados de investigaciones universitarias, recursos hídricos, flora 
+                    y fauna y más.
+                </trans>
+            </project>
+            <project tech="ownCloud">
+                <trans lang="en">
+                    Cloud storage service to upload document and cartography data to be displayed in the GIS
+                </trans>
+                <trans lang="es">
+                    Almacenamiento en la nube para subir documentos y datos de cartografía para ser mostrados en GIS
+                </trans>
+            </project>
+            <project tech="Django, GeoDjango, Django REST, PostgreSQL, PostGIS, GDAL">
+                <trans lang="en">
+                    Cartography service using GeoJSON with an administration interface to manage the cartography 
+                    to be shown in the GIS frontend, configuring properties as styles, labels from feature data and 
+                    the data source which could be PostGIS, A file system with a different cartography formats (SHP, 
+                    DXF, MapInfo, ect.), TMS service or XYZ tile.
+                </trans>
+                <trans lang="es">
+                    Servicio de cartografía usando GeoJSON con una interfaz de administración para gestionar la
+                    cartografía que se mostrará en el frontend GIS, configurando propiedades como estilos, etiquetas
+                    de los datos de las entidades y la fuente de datos que podría ser PostGIS, un sistema de archivos
+                    con diferentes formatos de cartografía (SHP, DXF, MapInfo, etc.), servicio TMS o mosaico XYZ.
+                </trans>
+            </project>
+            <project tech="UMN MapServer, UMN MapCache, Image processing">
+                <trans lang="en">
+                    MapServer with MapCache to use as TMS server to show elevation data and other large image sources 
+                    provided form the university research with queryable data inside.
+                </trans>
+                <trans lang="es">
+                    MapServer with MapCache para usar como servidor TMS para mostrar datos de elevación y otras fuentes de 
+                    imágenes grandes proporcionadas por la investigación universitaria con datos consultables 
+                    en su interior.
+                </trans>
+            </project>
+            <project tech="XYZ tile, gdal2tiles, Advanced image compressing, nginx">
+                <trans lang="en">
+                    XYZ tile files from a large aereal geopositioned image, postprocessing the tile images with 
+                    techniques of overcompression png images, served with nginx
+                </trans>
+                <trans lang="es">
+                    Archivos de mosaico XYZ de una gran imagen geoposicionada aerea, postprocesando las imágenes 
+                    de mosaico con técnicas de sobrecompresión de imágenes png, servidas con nginx
+                </trans>
+            </project>
+            <project tech="leaflet, ES/JavaScript, CSS, HTML, jQuery, proj4js">
+                <trans lang="en">
+                    GIS frontend to show data from the GIS service, showing custom labels, legend and query data 
+                    from the Cartography service, TMS and XYZ tile services.
+                </trans>
+                <trans lang="es">
+                    Frontend GIS para mostrar datos del servicio GIS, mostrando etiquetas personalizadas, leyenda 
+                    y datos de consulta del servicio de Cartografía, servicios TMS y mosaico XYZ .
+                </trans>
+            </project>
+            <project tech="leaflet, ES/JavaScript">
+                <trans lang="en">
+                    Improvement of Leaflet.SLD plugin features to access SLD styles exported from QGIS
+                </trans>
+                <trans lang="es">
+                    Mejora de las características del plugin Leaflet.SLD para acceder a 
+                    estilos SLD exportados desde QGIS
+                </trans>
+                <link type="oss-lib-feature">https://github.com/orfon/Leaflet.SLD/pull/2</link>
+            </project>
+            <project tech="Cordoba, node.js, Django, Django REST, bootstrap 4">
+                <trans lang="en">
+                    Mobile app to field survey, using Android tablets aproaching GPS tracking and positioning
+                </trans>
+                <trans lang="es">
+                    App móvil para encuestas en terreno, usando tablets Android con la ventaja del seguimiento 
+                    y posicionamiento GPS.
+                </trans>                
+            </project>
+        </job>
+        <!--
+        <job from="2015-08" to="2018-10">
+            <for>vZion</for>
+            <project tech="Huawei FusionSphere, ha-proxy, nginx, MongoDB, tomcat, git, GitLab, bash, java">
+                <trans lang="en">
+                    Design of project to upgrade of a critical government legacy web application considering 
+                    autoscale of the web applications and database cluster, deployable dev, prod and qa enviroments, 
+                    distributed virtualization, VCS and code tickets management
+                </trans>
+                <trans lang="es">
+                    Diseño de proyecto para mejora de una aplicacion web heredada pero importante de gobierno, considerando
+                    auto escalamiento de la apliacion web usando cluster de bases de datos, despliegue de ambientes dev, prod 
+                    y qa, virtualizacion distribuida, VCS y administracion de tickets.
+                </trans>
+            </project>
+        </job>
+        <job from="2015-04" to="2015-05">
+            <for>Vial Consultores</for>
+            <project tech="MapServer, MapCache, nginx, leaflet, GDAL, Advanced image compression">
+                <trans lang="en">
+                    GIS to show the progress of the rebuild of the town of Chañaral
+                </trans>
+                <trans lang="es">
+                    SIG para ver el progreso de la reconstruccion de la ciudad de Chañaral
+                </trans>                
+            </project>
+        </job>
+        -->
+        <job from="2014-09" to="2014-09">   
+            <for>IPLink hosting</for>
+            <project tech="perl, nginx">
+                <trans lang="en">
+                    Build of a SMTP gateway developing a perl nginx module to deliver SMTP mail to the clients of 
+                    a small VPS company
+                </trans>
+                <trans lang="es">
+                    Creación de pasarela SMTP desarollando un modulo nginx para distribuir el correo SMTP a los 
+                    cliente de una pequeña empresa de VPS.
                 </trans>                
             </project>
         </job>
