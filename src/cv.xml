@@ -145,7 +145,7 @@
                     contenedor y caché con blobs
                 </trans>
             </project>
-            <project trch="ES/JavaScript, OpenSeadragon, npm, JSDoc">
+            <project tech="ES/JavaScript, OpenSeadragon, npm, JSDoc">
                 <trans lang="en">
                     Plugin for OpenSeadragon to load MDF tiles as tile source
                 </trans>
@@ -189,12 +189,33 @@
         </job>
         <job from="2022-10" to="2024-03">
             <for>Dily / TransaTuAuto</for>
-            <project>
+            <project tech="Problem solving, Software Architecture, Software design, Infrastructure design, php, Yii2">
                 <trans lang="en">
-                    Software and infrastructure design advisory
+                    Build up development processes and do a recover plan from a refactor with 
+                    a bunch of bad practices that left the software in a bad state, with a lot 
+                    of bugs and performance issues in the software, infrastructure and development
                 </trans>
                 <trans lang="es">
-                    Asesoría en diseño de software e infraestructura
+                    Establecer procesos de desarrollo y hacer un plan de recuperación de un 
+                    refactor con un montón de malas prácticas que dejaron el software en un 
+                    estado malo, con muchos errores y problemas de rendimiento en el software,
+                    infraestructura y desarrollo
+                </trans>
+            </project>
+            <project tech="Architecture, Software design, Infrastructure design, Design patterns">
+                <trans lang="en">
+                    Architecture, software and infrastructure design
+                </trans>
+                <trans lang="es">
+                    Arquitectura, diseño de software e infraestructura
+                </trans>
+            </project>
+            <project tech="php, Yii2">
+                <trans lang="en">
+                    Mantainance and improvements of legacy software
+                </trans>
+                <trans lang="es">
+                    Mantenimiento y mejora de software legado
                 </trans>
             </project>
             <project tech="Design patterns (Hexagonal, Repository, Aggregate, Anti corruption layers), InversifyJS, express, knex, advanced TypeScript typing">
@@ -213,7 +234,7 @@
                     Desarrollo de integraciones
                 </trans>
             </project>
-            <project tech="Design patterns, Anti corruptuin layers">
+            <project tech="Design patterns">
                 <trans lang="en">
                     Design of plugin system with abstract classes and interfaces to different providers on different parts of the software
                 </trans>
@@ -246,14 +267,6 @@
                     Consultas de reportes SQL complejas y optimización de consultas
                 </trans>
             </project>
-            <project tech="php, Yii2">
-                <trans lang="en">
-                    Mantainance of legacy software
-                </trans>
-                <trans lang="es">
-                    Mantenimiento de software legado
-                </trans>
-            </project>
             <project tech="Design patterns, Anti corruption layers">
                 <trans lang="en">
                     Interoperability of legacy and new software via anti corruption layer
@@ -266,7 +279,7 @@
                 <trans lang="en">RPA optimization and improvement</trans>
                 <trans lang="es">Optimización y mejora de RPA</trans>
             </project>
-            <project tech="ES2023, npm">
+            <project tech="ES/JavaScript, TypeScript, JSDoc, npm">
                 <trans lang="en">Development of node.js library to connect to Shinkansen 
                     finnance provider porting their python package
                 </trans>
