@@ -133,6 +133,47 @@
         <skill rate="4">Mapserver</skill>
     </skills>    
     <jobs highlights="yes">
+        <job from="2024-10">
+            <for type="Pet project">Upki</for>
+            <as>
+                <trans lang="en">Founder, tech leader, lead and backend developer</trans>
+                <trans lang="es">Fundador, lider técnico, desarollador líder y backend</trans>
+            </as>
+            <project tech="Problem solving, architecture, software design, infrastructure design">
+                <trans lang="en">
+                    Planner, architect and tech leader of a SaaS platform to manage scholar 
+                    transport.
+                </trans>
+                <trans lang="es">
+                    Planificador, arquitecto y lider técnico de una plataforma SaaS para 
+                    administrar transporte escolar.
+                </trans>
+            </project>
+            <project tech="Project management, team management, leadership">
+                <trans lang="en">
+                    Team leader and management of a small team 3 internship students on 
+                    frontend and backend development, 1 designer and 1 DevOps
+                </trans>
+                <trans lang="es">
+                    Lider de equipo y administración de un pequeño equipo de 3 estudiantes 
+                    en práctica en desarrollo frontend y backend, 1 diseñador y 1 DevOps
+                </trans>
+            </project>
+            <project tech="NestJS, software design patterns, TypeScript, Swagger, TypeORM, Mongoose">
+                <trans lang="en">
+                    Developer of a base service boilerplate for NestJS with software design patterns
+                    like CRUD operations, repository pattern, DTOs, etc. also 
+                    implementing authorization, authentication, services and documentation
+                    integrating TypeORM, Mongoose and Swagger in an easy way.
+                </trans>
+                <trans lang="es">
+                    Desarrollador de un boilerplate de servicio base para NestJS con patrones de diseño
+                    de software como operaciones CRUD, patrón de repositorio, DTOs, etc. también 
+                    implementando autorización, autenticación, servicios y documentación
+                    integrando TypeORM, Mongoose y Swagger de una manera fácil.
+                </trans>
+            </project>
+        </job>
         <job from="2024-04" to="2024-09">
             <for>Modulonet</for>
             <as>
@@ -457,7 +498,7 @@
                     compute services
                 </trans>
                 <trans lang="es">
-                    Migracion de intraestructura a AWS usando intraestructura como codigo (IaaC) con auto escalado, RDS, Route53
+                    Migracion de intraestruNestJSctura a AWS usando intraestructura como codigo (IaaC) con auto escalado, RDS, Route53
                     y compute services
                 </trans>
             </project>
