@@ -10,7 +10,8 @@
     <xsl:variable name="trans__about" as="xs:string" select="if ($lang = 'es') then 'Resumen' else 'About'" />
     <xsl:variable name="trans__links" as="xs:string" select="if ($lang = 'es') then 'Enlaces' else 'Links'" />
     <xsl:variable name="trans__experience" as="xs:string" select="if ($lang = 'es') then 'Experiencia' else 'Experience'" />
-    <xsl:variable name="trans__from" as="xs:string" select="if ($lang = 'es') then 'Desde' else 'Since'" />
+    <xsl:variable name="trans__from" as="xs:string" select="if ($lang = 'es') then 'Desde' else 'From'" />
+    <xsl:variable name="trans__since" as="xs:string" select="if ($lang = 'es') then 'Desde' else 'Since'" />
     <xsl:variable name="trans__to" as="xs:string" select="if ($lang = 'es') then 'hasta' else 'to'" />
     <xsl:variable name="trans__as" as="xs:string" select="if ($lang = 'es') then 'como' else 'as'" />
     <xsl:variable name="trans__more_jobs" as="xs:string" select="if ($lang = 'es') then 'Más {n} trabajos anteriores, para más información preguntar directamente' else 'And {n} more previous jobs, for more information please ask directly'" />
@@ -107,7 +108,14 @@
                                                 </div>
                                             </xsl:if>
                                             <div class="date">
-                                                <xsl:value-of select="$trans__from" />
+                                                <xsl:choose>
+                                                    <xsl:when test="@to">
+                                                        <xsl:value-of select="$trans__from" />
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:value-of select="$trans__since" />
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
                                                 <xsl:text> </xsl:text>
                                                 <xsl:value-of select="@from" />
                                                 <xsl:if test="@to">

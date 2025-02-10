@@ -133,7 +133,7 @@
         <skill rate="4">Mapserver</skill>
     </skills>    
     <jobs highlights="yes">
-        <job from="2024-04">
+        <job from="2024-04" to="2024-09">
             <for>Modulonet</for>
             <as>
                 <trans lang="en">Library developer, browser developer</trans>

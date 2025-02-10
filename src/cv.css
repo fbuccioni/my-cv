@@ -235,6 +235,7 @@ content>section.experience div.as {
 
 content > section.experience div.date {
     font-size: 90%;
+    font-style: italic;
 }
 
 content > section.experience div.more.jobs {
