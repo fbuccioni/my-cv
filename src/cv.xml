@@ -3,22 +3,22 @@
 <cv name="Felipe Buccioni">
     <about>
         <trans lang="en">
-            Self-driven, self-made with more than 20 years of experience interested and motivated by 
+            Self-driven, self-made with more than 20 years of experience interested and motivated by
             continuous improvement, passionate about innovation. My professional life is  spent in a
-            variety of industries and markets, where I have led several projects in software 
-            development and information technologies. The value that I will be able to bring to your 
+            variety of industries and markets, where I have led several projects in software
+            development and information technologies. The value that I will be able to bring to your
             work is finding creative, fresh and flexible solutions to complicated challenges.
         </trans>
         <trans lang="es">
-            Autodidacta y con más de 20 años de experiencia, interesado y motivado por la automejora 
-            continua, apasionado por la innovación. Mi vida profesional transcurre en diversos sectores 
-            y mercados, donde he liderado varios proyectos de desarrollo de software y tecnologías de la 
-            información. El valor que podré aportar a su trabajo es encontrar soluciones frescas, creativas 
+            Autodidacta y con más de 20 años de experiencia, interesado y motivado por la automejora
+            continua, apasionado por la innovación. Mi vida profesional transcurre en diversos sectores
+            y mercados, donde he liderado varios proyectos de desarrollo de software y tecnologías de la
+            información. El valor que podré aportar a su trabajo es encontrar soluciones frescas, creativas
             y flexibles a retos complicados.
         </trans>
     </about>
     <links>
-        <link 
+        <link
             url="https://github.com/fbuccioni"
             icon="github.svg"
         >
@@ -28,7 +28,7 @@
             </name>
             <description>
                 <trans lang="en">
-                    Contributions and some custom mods to open source projects, plugins/libreries by me, 
+                    Contributions and some custom mods to open source projects, plugins/libreries by me,
                     experiments and more.
                 </trans>
                 <trans lang="es">
@@ -37,7 +37,7 @@
                 </trans>
             </description>
         </link>
-        <link 
+        <link
             url="https://stackoverflow.com/users/742249/felipe-buccioni"
             icon="stackoverflow.png"
         >
@@ -47,16 +47,16 @@
             </name>
             <description>
                 <trans lang="en">
-                    Answers and questions by me about development and programming in different 
+                    Answers and questions by me about development and programming in different
                     languages and areas.
                 </trans>
                 <trans lang="es">
-                    Respuestas y preguntas por mi acerca de desarrollo y programación en 
+                    Respuestas y preguntas por mi acerca de desarrollo y programación en
                     diferentes lenguajes y áreas
                 </trans>
             </description>
         </link>
-        <link 
+        <link
             url="https://linkedin.com/in/fbuccioni"
             icon="linkedin.svg"
         >
@@ -131,7 +131,7 @@
         <skill rate="5">leaflet</skill>
         <skill rate="5">OpenSeadragon</skill>
         <skill rate="4">Mapserver</skill>
-    </skills>    
+    </skills>
     <jobs highlights="yes">
         <job from="2024-10">
             <for type="Pet project">Upki</for>
@@ -141,34 +141,34 @@
             </as>
             <project tech="Problem solving, architecture, software design, infrastructure design">
                 <trans lang="en">
-                    Planner, architect and tech leader of a SaaS platform to manage scholar 
+                    Planner, architect and tech leader of a SaaS platform to manage scholar
                     transport.
                 </trans>
                 <trans lang="es">
-                    Planificador, arquitecto y lider técnico de una plataforma SaaS para 
+                    Planificador, arquitecto y lider técnico de una plataforma SaaS para
                     administrar transporte escolar.
                 </trans>
             </project>
             <project tech="Project management, team management, leadership">
                 <trans lang="en">
-                    Team leader and management of a small team 3 internship students on 
+                    Team leader and management of a small team 3 internship students on
                     frontend and backend development, 1 designer and 1 DevOps
                 </trans>
                 <trans lang="es">
-                    Lider de equipo y administración de un pequeño equipo de 3 estudiantes 
+                    Lider de equipo y administración de un pequeño equipo de 3 estudiantes
                     en práctica en desarrollo frontend y backend, 1 diseñador y 1 DevOps
                 </trans>
             </project>
             <project tech="NestJS, software design patterns, TypeScript, Swagger, TypeORM, Mongoose">
                 <trans lang="en">
                     Developer of a base service boilerplate for NestJS with software design patterns
-                    like CRUD operations, repository pattern, DTOs, etc. also 
+                    like CRUD operations, repository pattern, DTOs, etc. also
                     implementing authorization, authentication, services and documentation
                     integrating TypeORM, Mongoose and Swagger in an easy way.
                 </trans>
                 <trans lang="es">
                     Desarrollador de un boilerplate de servicio base para NestJS con patrones de diseño
-                    de software como operaciones CRUD, patrón de repositorio, DTOs, etc. también 
+                    de software como operaciones CRUD, patrón de repositorio, DTOs, etc. también
                     implementando autorización, autenticación, servicios y documentación
                     integrando TypeORM, Mongoose y Swagger de una manera fácil.
                 </trans>
@@ -183,12 +183,12 @@
             </as>
             <project tech="ES/JavsScript, MS-CFB, JSDoc">
                 <trans lang="en">
-                    Library load a MDF, high resolution tile format based in MS-CFB container format, 
+                    Library load a MDF, high resolution tile format based in MS-CFB container format,
                     using binary I/O to work with files inside the container and caching with blobs
                 </trans>
                 <trans lang="es">
                     Librería para cargar MDF, formato de mosaico de alta resolución basado en el formato
-                    de contenedor MS-CFB, usando E/S binaria para trabajar con archivos dentro del 
+                    de contenedor MS-CFB, usando E/S binaria para trabajar con archivos dentro del
                     contenedor y caché con blobs
                 </trans>
             </project>
@@ -201,13 +201,13 @@
                 </trans>
             </project>
             <project tech="ES/JavaScript, OpenSeadragon, npm, DOM, fabric.js, JSDoc">
-                <trans lang="en">			 
+                <trans lang="en">			
                     Plugin for OpenSeadragon to draw a rule to measure, able to use custom
                     measure units, presserving scales and positions when zoom or pan.
                 </trans>
                 <trans lang="es">
                     Plugin para OpenSeadragon para dibujar una regla para medir, capaz de usar
-                    unidades de medida personalizadas, preservando escalas y posiciones al 
+                    unidades de medida personalizadas, preservando escalas y posiciones al
                     hacer zoom o pan.
                 </trans>
             </project>
@@ -242,13 +242,13 @@
             </as>
             <project tech="Problem solving, Software Architecture, Software design, Infrastructure design, php, Yii2">
                 <trans lang="en">
-                    Build up development processes and do a recover plan from a refactor with 
-                    a bunch of bad practices that left the software in a bad state, with a lot 
+                    Build up development processes and do a recover plan from a refactor with
+                    a bunch of bad practices that left the software in a bad state, with a lot
                     of bugs and performance issues in the software, infrastructure and development
                 </trans>
                 <trans lang="es">
-                    Establecer procesos de desarrollo y hacer un plan de recuperación de un 
-                    refactor con un montón de malas prácticas que dejaron el software en un 
+                    Establecer procesos de desarrollo y hacer un plan de recuperación de un
+                    refactor con un montón de malas prácticas que dejaron el software en un
                     estado malo, con muchos errores y problemas de rendimiento en el software,
                     infraestructura y desarrollo
                 </trans>
@@ -331,10 +331,10 @@
                 <trans lang="es">Optimización y mejora de RPA</trans>
             </project>
             <project tech="ES/JavaScript, TypeScript, JSDoc, npm">
-                <trans lang="en">Development of node.js library to connect to Shinkansen 
+                <trans lang="en">Development of node.js library to connect to Shinkansen
                     finnance provider porting their python package
                 </trans>
-                <trans lang="es">Desarrollo de librería node.js para conectar con proveedor 
+                <trans lang="es">Desarrollo de librería node.js para conectar con proveedor
                     financiero Shinkansen portando su paquete python
                 </trans>
             </project>
@@ -355,7 +355,7 @@
                 <trans lang="es">
                     Planificación y desarrollo de servicio REST para una compañía de seguros de auto para cotizar, solicitar y mostrar
                     detalles como costos, viajes, comportamiento y estadísticas de los autos asegurados por la compañía.
-                </trans>                
+                </trans>
             </project>
             <project tech="Design patterns, python, Django, Django REST, Django JET, multiprocessing, webhook arch, queue arch, API integration, OCTO web services">
                 <trans lang="en">
@@ -365,7 +365,7 @@
                 <trans lang="es">
                     Planificación y desarrollo de aplicación intermedia para gestionar la logística de los dispositivos GPS entre la
                     compañía de seguros, la compañía telemática (Octo Telematics), la compañía de logística y los mensajeros.
-                </trans>                
+                </trans>
             </project>
             <project tech="python, API integration, XML, REST, RPA, selenium">
                 <trans lang="en">
@@ -373,11 +373,11 @@
                 </trans>
                 <trans lang="es">
                     Desarrollo de paquetes Python para conectar con los servicios XML de DHL y la API de FedEx/TNT Chile
-                </trans>                
+                </trans>
             </project>
             <project tech="python, String phonetics/coincidences pattern, AWS S3, PDF manipulation">
                 <trans lang="en">Integration with FedEx/TNT Chile</trans>
-                <trans lang="es">Integración con FedEx/TNT Chile</trans>                
+                <trans lang="es">Integración con FedEx/TNT Chile</trans>
             </project>
             <project tech="python, Web2Py, Jumpseller API, API Integration, Woocommerce, Wordpress plugins, WP REST, Shopify API">
                 <trans lang="en">
@@ -385,7 +385,7 @@
                 </trans>
                 <trans lang="es">
                     Integracion de envíos con Jumpseller, Woocommerce and Shopify
-                </trans>                
+                </trans>
             </project>
             <project tech="php, WordPress, Woocommerce, Wordpress plugins, WP REST">
                 <trans lang="en">
@@ -393,7 +393,7 @@
                 </trans>
                 <trans lang="es">
                     Integracion para actualizacion de productos y stock SAP con Woocommerce
-                </trans>                
+                </trans>
             </project>
             <project tech="python, flask, sharedmem, Shopify API, bsale API">
                 <trans lang="en">
@@ -401,7 +401,7 @@
                 </trans>
                 <trans lang="es">
                     Integracion de bsale con Shopify
-                </trans>                
+                </trans>
             </project>
         </job>
         <job from="2022-04" to="2022-06">
@@ -415,7 +415,7 @@
                     Development of a library API to sign PDF files using a commandline tool as backend
                 </trans>
                 <trans lang="es">
-                    Desarollo de una API biblioteca para firmar archivos PDF con una herramienta de linea 
+                    Desarollo de una API biblioteca para firmar archivos PDF con una herramienta de linea
                     de comandos como backend
                 </trans>
             </project>
@@ -428,11 +428,11 @@
             </as>
             <project tech="python, Django, Django REST, Django JET, GeoDjango, Google Geocode, Mailchimp, Twillio">
                 <trans lang="en">
-                    Lead and backend developer on refactor the client and management processes of 
+                    Lead and backend developer on refactor the client and management processes of
                     somoscircular.com
                 </trans>
                 <trans lang="es">
-                    Desarollador lider y backend en refacotizacion de los procesos de cliente y manejo de 
+                    Desarollador lider y backend en refacotizacion de los procesos de cliente y manejo de
                     somoscirular.com
                 </trans>
             </project>for
@@ -445,7 +445,7 @@
             </as>
             <project tech="python, Django, Django REST, Django JET, JWT Auth, GeoDJango">
                 <trans lang="en">
-                    Co-Project Leader/Backend developer of app/platform for COVID-19 traceability for the Aysén 
+                    Co-Project Leader/Backend developer of app/platform for COVID-19 traceability for the Aysén
                     Region in 1 month, also act like problem solver with the deployment on iOS with ionic
                 </trans>
                 <trans lang="es">
@@ -494,7 +494,7 @@
             </as>
             <project tech="ES6, pulumi, aws, puppet">
                 <trans lang="en">
-                    Infrastructure migration to AWS using infrastructure as a code (IaaC) using autoscale, RDS, Route53 and 
+                    Infrastructure migration to AWS using infrastructure as a code (IaaC) using autoscale, RDS, Route53 and
                     compute services
                 </trans>
                 <trans lang="es">
@@ -508,15 +508,15 @@
                 </trans>
                 <trans lang="es">
                     Sistema de autenticación y autorizacion perimetral
-                </trans>                
+                </trans>
             </project>
             <project tech="Django, REST API, HTTP, Proxy, Streaming, AWS S3, AWS Athena">
                 <trans lang="en">
-                    Middleware manager to manage permissions for internal services, some process need buffered 
+                    Middleware manager to manage permissions for internal services, some process need buffered
                     stream output.
                 </trans>
                 <trans lang="es">
-                    Administrador middleware para manejar permisos para servicios internos, algunos procesos 
+                    Administrador middleware para manejar permisos para servicios internos, algunos procesos
                     necesitaron salidas en búfer y salidas tipo stream.
                 </trans>
             </project>
@@ -526,7 +526,7 @@
                 </trans>
                 <trans lang="es">
                     Orquestación
-                </trans>                
+                </trans>
             </project>
             <project tech="GitLab CI">
                 Pipelines
@@ -537,15 +537,15 @@
                 </trans>
                 <trans lang="es">
                     Aplicacion para administrar productos para una tienda de retail.
-                </trans>                
+                </trans>
             </project>
             <project tech="python, Django, XML, PyFilesystem, multiprocessing">
                 <trans lang="en">
-                    Extension of the previously mentioned app for export products to Salesforce and 
+                    Extension of the previously mentioned app for export products to Salesforce and
                     WebSphere commerce platforms.
                 </trans>
                 <trans lang="es">
-                    Estensión para la aplicacion mencionada anteriormente para exportar productos a 
+                    Estensión para la aplicacion mencionada anteriormente para exportar productos a
                     las plataformas de commerce Salesforce y WebSphere.
                 </trans>
             </project>
@@ -555,7 +555,7 @@
                 </trans>
                 <trans lang="es">
                     Catálogo de productos
-                </trans>                
+                </trans>
             </project>
             <project tech="Scala">
                 <trans lang="en">
@@ -563,12 +563,12 @@
                 </trans>
                 <trans lang="es">
                     Programación en scala básica
-                </trans>                
+                </trans>
             </project>
         </job>
         <job from="2017-01" to="2017-06">
             <for>
-                VRIM Universidad de Concepción / Asociacion de municipalidades para la preservacion de la 
+                VRIM Universidad de Concepción / Asociacion de municipalidades para la preservacion de la
                 biodiversidad del territorio Nonguén y otros ecosistemas
             </for>
             <as>
@@ -577,14 +577,14 @@
             </as>
             <project tech="Infrastructure design, Software design">
                 <trans lang="en">
-                    Planner, architect and developer of a GIS platform for territory planning also being oriented 
-                    to show to the community, the Nonguén national reserve alongside nearby ecosystems and all the 
+                    Planner, architect and developer of a GIS platform for territory planning also being oriented
+                    to show to the community, the Nonguén national reserve alongside nearby ecosystems and all the
                     collected data from university researches, hydric resources, flora and fauna and more.
                 </trans>
                 <trans lang="es">
-                    Planificador, archuitecto y desarrollador de una plataforma GIS para planificación territorial 
-                    también orientada a mostrar a la comunidad, la reserva nacional Nonguén junto a los ecosistemas 
-                    cercanos y todos los datos recopilados de investigaciones universitarias, recursos hídricos, flora 
+                    Planificador, archuitecto y desarrollador de una plataforma GIS para planificación territorial
+                    también orientada a mostrar a la comunidad, la reserva nacional Nonguén junto a los ecosistemas
+                    cercanos y todos los datos recopilados de investigaciones universitarias, recursos hídricos, flora
                     y fauna y más.
                 </trans>
             </project>
@@ -598,9 +598,9 @@
             </project>
             <project tech="Django, GeoDjango, Django REST, PostgreSQL, PostGIS, GDAL">
                 <trans lang="en">
-                    Cartography service using GeoJSON with an administration interface to manage the cartography 
-                    to be shown in the GIS frontend, configuring properties as styles, labels from feature data and 
-                    the data source which could be PostGIS, A file system with a different cartography formats (SHP, 
+                    Cartography service using GeoJSON with an administration interface to manage the cartography
+                    to be shown in the GIS frontend, configuring properties as styles, labels from feature data and
+                    the data source which could be PostGIS, A file system with a different cartography formats (SHP,
                     DXF, MapInfo, ect.), TMS service or XYZ tile.
                 </trans>
                 <trans lang="es">
@@ -612,32 +612,32 @@
             </project>
             <project tech="UMN MapServer, UMN MapCache, Image processing">
                 <trans lang="en">
-                    MapServer with MapCache to use as TMS server to show elevation data and other large image sources 
+                    MapServer with MapCache to use as TMS server to show elevation data and other large image sources
                     provided form the university research with queryable data inside.
                 </trans>
                 <trans lang="es">
-                    MapServer with MapCache para usar como servidor TMS para mostrar datos de elevación y otras fuentes de 
-                    imágenes grandes proporcionadas por la investigación universitaria con datos consultables 
+                    MapServer with MapCache para usar como servidor TMS para mostrar datos de elevación y otras fuentes de
+                    imágenes grandes proporcionadas por la investigación universitaria con datos consultables
                     en su interior.
                 </trans>
             </project>
             <project tech="XYZ tile, gdal2tiles, Advanced image compressing, nginx">
                 <trans lang="en">
-                    XYZ tile files from a large aereal geopositioned image, postprocessing the tile images with 
+                    XYZ tile files from a large aereal geopositioned image, postprocessing the tile images with
                     techniques of overcompression png images, served with nginx
                 </trans>
                 <trans lang="es">
-                    Archivos de mosaico XYZ de una gran imagen geoposicionada aerea, postprocesando las imágenes 
+                    Archivos de mosaico XYZ de una gran imagen geoposicionada aerea, postprocesando las imágenes
                     de mosaico con técnicas de sobrecompresión de imágenes png, servidas con nginx
                 </trans>
             </project>
             <project tech="leaflet, ES/JavaScript, CSS, HTML, jQuery, proj4js">
                 <trans lang="en">
-                    GIS frontend to show data from the GIS service, showing custom labels, legend and query data 
+                    GIS frontend to show data from the GIS service, showing custom labels, legend and query data
                     from the Cartography service, TMS and XYZ tile services.
                 </trans>
                 <trans lang="es">
-                    Frontend GIS para mostrar datos del servicio GIS, mostrando etiquetas personalizadas, leyenda 
+                    Frontend GIS para mostrar datos del servicio GIS, mostrando etiquetas personalizadas, leyenda
                     y datos de consulta del servicio de Cartografía, servicios TMS y mosaico XYZ .
                 </trans>
             </project>
@@ -646,7 +646,7 @@
                     Improvement of Leaflet.SLD plugin features to access SLD styles exported from QGIS
                 </trans>
                 <trans lang="es">
-                    Mejora de las características del plugin Leaflet.SLD para acceder a 
+                    Mejora de las características del plugin Leaflet.SLD para acceder a
                     estilos SLD exportados desde QGIS
                 </trans>
                 <link type="oss-lib-feature">https://github.com/orfon/Leaflet.SLD/pull/2</link>
@@ -656,9 +656,9 @@
                     Mobile app to field survey, using Android tablets aproaching GPS tracking and positioning
                 </trans>
                 <trans lang="es">
-                    App móvil para encuestas en terreno, usando tablets Android con la ventaja del seguimiento 
+                    App móvil para encuestas en terreno, usando tablets Android con la ventaja del seguimiento
                     y posicionamiento GPS.
-                </trans>                
+                </trans>
             </project>
         </job>
         <!--
@@ -666,13 +666,13 @@
             <for>vZion</for>
             <project tech="Huawei FusionSphere, ha-proxy, nginx, MongoDB, tomcat, git, GitLab, bash, java">
                 <trans lang="en">
-                    Design of project to upgrade of a critical government legacy web application considering 
-                    autoscale of the web applications and database cluster, deployable dev, prod and qa enviroments, 
+                    Design of project to upgrade of a critical government legacy web application considering
+                    autoscale of the web applications and database cluster, deployable dev, prod and qa enviroments,
                     distributed virtualization, VCS and code tickets management
                 </trans>
                 <trans lang="es">
                     Diseño de proyecto para mejora de una aplicacion web heredada pero importante de gobierno, considerando
-                    auto escalamiento de la apliacion web usando cluster de bases de datos, despliegue de ambientes dev, prod 
+                    auto escalamiento de la apliacion web usando cluster de bases de datos, despliegue de ambientes dev, prod
                     y qa, virtualizacion distribuida, VCS y administracion de tickets.
                 </trans>
             </project>
@@ -685,11 +685,11 @@
                 </trans>
                 <trans lang="es">
                     SIG para ver el progreso de la reconstruccion de la ciudad de Chañaral
-                </trans>                
+                </trans>
             </project>
         </job>
         -->
-        <job from="2014-09" to="2014-09">   
+        <job from="2014-09" to="2014-09">
             <for>IPLink hosting</for>
             <as>
                 <trans lang="en">nginx plugin developer</trans>
@@ -697,13 +697,13 @@
             </as>
             <project tech="perl, nginx">
                 <trans lang="en">
-                    Build of a SMTP gateway developing a perl nginx module to deliver SMTP mail to the clients of 
+                    Build of a SMTP gateway developing a perl nginx module to deliver SMTP mail to the clients of
                     a small VPS company
                 </trans>
                 <trans lang="es">
-                    Creación de pasarela SMTP desarollando un modulo nginx para distribuir el correo SMTP a los 
+                    Creación de pasarela SMTP desarollando un modulo nginx para distribuir el correo SMTP a los
                     cliente de una pequeña empresa de VPS.
-                </trans>                
+                </trans>
             </project>
         </job>
     </jobs>

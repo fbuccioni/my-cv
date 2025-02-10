@@ -68,8 +68,8 @@ aside {
     right: 0px;
     top: 0.5px;
     height: 100%;
-    box-shadow: 
-        0.5px -1px calc(0.5rem - 1px) #444, 
+    box-shadow:
+        0.5px -1px calc(0.5rem - 1px) #444,
         -0.5px -1px calc(0.5rem - 1px) rgba(68, 68, 68, 0.5)
     ;
 }
@@ -159,7 +159,7 @@ content > section {
 
 content > section > * {
     padding: 0 0.6rem;
-} 
+}
 
 content > section > .title {
     padding: 0 0.3rem;

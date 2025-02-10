@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet 
-    version="2.0" 
+<xsl:stylesheet
+    version="2.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fo="http://www.w3.org/1999/XSL/Format"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -28,7 +28,7 @@
             <xsl:otherwise>
                 <xsl:value-of select="concat(replace(., '^\s*(.+?)\s*$', '$1'), ' ')" />
             </xsl:otherwise>
-        </xsl:choose>   
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="/">
         <html>
@@ -70,7 +70,7 @@
                                                 <xsl:call-template name="trans" />
                                             </xsl:for-each>
                                         </td>
-                                    </tr>                            
+                                    </tr>
                                 </xsl:for-each>
                                 </tbody>
                             </table>
@@ -80,7 +80,7 @@
                             <xsl:if test="cv/jobs/@highlights = 'yes'">
                             <div class="highlights">
                                 <xsl:if test="$lang = 'en'">
-                                    Because of my long career, this is my highlighted experience, for more information 
+                                    Because of my long career, this is my highlighted experience, for more information
                                     please ask me directly.
                                 </xsl:if>
                                 <xsl:if test="$lang = 'es'">
@@ -136,7 +136,7 @@
                                             <ul>
                                             <xsl:for-each select="project">
                                                 <li>
-                                                    <xsl:call-template name="trans" /> 
+                                                    <xsl:call-template name="trans" />
                                                     <xsl:if test="string-length(@tech)">
                                                     <small>(<xsl:value-of select="@tech" />)</small>
                                                     </xsl:if>
@@ -159,7 +159,7 @@
                         <div class="title">Personal</div>
                         <div class="left-icon-text">
                             <span>✉</span><xsl:value-of select="cv/personal/email" />
-                        </div>   
+                        </div>
                         <xsl:if test="cv/personal/phone">
                         <div class="left-icon-text">
                             <span>📱</span><xsl:value-of select="cv/personal/phone" />
@@ -168,14 +168,14 @@
                         <xsl:if test="cv/personal/location">
                         <div class="left-icon-text">
                             <span>🌍</span><xsl:for-each select="cv/personal/location">
-                                <xsl:call-template name="trans" /> 
+                                <xsl:call-template name="trans" />
                             </xsl:for-each>
                             <xsl:if test="cv/personal/location/@relocatable = 'yes'">
                                 (<xsl:value-of select="$trans__relocatable" />)
                             </xsl:if>
                         </div>
                         </xsl:if>
-                    </section>   
+                    </section>
                     <section>
                         <div class="title"><xsl:value-of select="$trans__skills" /></div>
                         <table class="skills" cellpadding="0" cellspacing="0" border="0">
@@ -201,7 +201,7 @@
                             </tr>
                         </xsl:for-each>
                         </table>
-                    </section>              
+                    </section>
                 </aside>
             </body>
         </html>
