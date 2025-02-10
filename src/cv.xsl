@@ -97,6 +97,10 @@
                                         <td rowspan="2">
                                             <xsl:for-each select="for">
                                                 <xsl:call-template name="trans" />
+                                                <xsl:if test="@type">
+                                                    <xsl:text> </xsl:text>
+                                                    <small>(<xsl:value-of select="@type" />)</small>
+                                                </xsl:if>
                                             </xsl:for-each>
                                         </td>
                                         <td>

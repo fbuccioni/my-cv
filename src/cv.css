@@ -209,6 +209,11 @@ content > section.experience table td:first-of-type {
     padding-right: 1.5rem;
 }
 
+content > section.experience table td:first-of-type > small {
+    font-weight: normal;
+    font-size: 90%;
+}
+
 content > section.experience table td ul {
     padding-left: 1rem;
     margin-top: 0.7rem;
