@@ -223,6 +223,20 @@ content > section.experience table td li small {
     font-weight: bold;
 }
 
+content > section.experience div.as {
+    font-weight: bold;
+}
+
+content>section.experience table td li small,
+content>section.experience div.as {
+    color: rgb(81, 62, 84);
+    text-shadow: 0.3px 0.3px 0.7px rgba(81, 62, 84, 0.5);
+}
+
+content > section.experience div.date {
+    font-size: 90%;
+}
+
 content > section.experience div.more.jobs {
     margin-top: 2rem;
     font-style: italic
