@@ -105,8 +105,7 @@
         <skill rate="5">Python</skill>
         <skill rate="5">Bash</skill>
 
-        <skill rate="3">Express</skill>
-        <skill rate="3">Inversify</skill>
+        <skill rate="4">NestJS</skill>
         <skill rate="2">Angular</skill>
         <skill rate="5">Django REST</skill>
         <skill rate="4">FastAPI</skill>
