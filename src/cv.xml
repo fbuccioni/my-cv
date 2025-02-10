@@ -136,6 +136,11 @@
     <jobs highlights="yes">
         <job from="2024-04">
             <for>Modulonet</for>
+            <as>
+                <trans lang="en">Library developer, browser developer</trans>
+                <trans lang="es">Desarrollador de librerias node, desarrollador de
+                    navegadores web</trans>
+            </as>
             <project tech="ES/JavsScript, MS-CFB, JSDoc">
                 <trans lang="en">
                     Library load a MDF, high resolution tile format based in MS-CFB container format, 
@@ -191,6 +196,10 @@
         </job>
         <job from="2022-10" to="2024-03">
             <for>Dily / TransaTuAuto</for>
+            <as>
+                <trans lang="en">Senior Backend Developer</trans>
+                <trans lang="es">Desarrollador backend senior</trans>
+            </as>
             <project tech="Problem solving, Software Architecture, Software design, Infrastructure design, php, Yii2">
                 <trans lang="en">
                     Build up development processes and do a recover plan from a refactor with 
@@ -292,6 +301,10 @@
         </job>
         <job from="2020-03" to="2022-08">
             <for>Kudzu logistics</for>
+            <as>
+                <trans lang="en">Senior Backend Developer - Library Developer - Integration developer</trans>
+                <trans lang="es">Desarrollador backend senior - Desarrollador de librerias - Desarrollador de integraciones</trans>
+            </as>
             <positions>Senior Backend Developer / API Integrator / Consulting / Team leader</positions>
             <location>Santiago, Chile</location>
             <project tech="python, FastAPI, Azure functions, Azure CosmosDB, Azure CosmosDB API for MongoDB, MongoDB, serverless arch">
@@ -353,6 +366,10 @@
         </job>
         <job from="2022-04" to="2022-06">
             <for>Modulonet</for>
+            <as>
+                <trans lang="en">Backend/API developer</trans>
+                <trans lang="es">Desarrollador backend/API</trans>
+            </as>
             <project tech="php, php 7, API, phpdoc">
                 <trans lang="en">
                     Development of a library API to sign PDF files using a commandline tool as backend
@@ -365,6 +382,10 @@
         </job>
         <job from="2021-04" to="2021-05">
             <for>Somoscircular</for>
+            <as>
+                <trans lang="en">Lead and backend developer</trans>
+                <trans lang="es">Desarollador lider y backend</trans>
+            </as>
             <project tech="python, Django, Django REST, Django JET, GeoDjango, Google Geocode, Mailchimp, Twillio">
                 <trans lang="en">
                     Lead and backend developer on refactor the client and management processes of 
@@ -378,6 +399,10 @@
         </job>
         <job from="2020-12" to="2021-01">
             <for>ETYCC S.A</for>
+            <as>
+                <trans lang="en">Co-project Leader - Backend developer</trans>
+                <trans lang="es">Co lider de proyecto - Desarollador backend</trans>
+            </as>
             <project tech="python, Django, Django REST, Django JET, JWT Auth, GeoDJango">
                 <trans lang="en">
                     Co-Project Leader/Backend developer of app/platform for COVID-19 traceability for the Aysén 
@@ -392,6 +417,10 @@
         </job>
         <job from="2020-09" to="2020-09">
             <for>ETYCC S.A</for>
+            <as>
+                <trans lang="en">Co-Project Leader - Backend developer</trans>
+                <trans lang="es">Co lider de proyecto - Desarollador backend</trans>
+            </as>
             <project tech="python, Django, Django REST, Django JET">
                 <trans lang="en">
                     Co-Project Leader/Backend developer of long form for bank application in 3 weeks
@@ -404,6 +433,10 @@
         </job>
         <job from="2020-06" to="2020-09">
             <for>Think2Process</for>
+            <as>
+                <trans lang="en">RPA developer</trans>
+                <trans lang="es">Desarollador RPA</trans>
+            </as>
             <project tech="python, OpenCV, TKInter, multiprocessing, sharedmem, IPC, Image processing, pyautogui, multiplatform Python, Design patterns">
                 <trans lang="en">
                     Multiplatform (Windows and linux) RPA Robot who enters bank data to ERP softwar
@@ -415,6 +448,10 @@
         </job>
         <job from="2017-11" to="2020-02">
             <for>Retargeting</for>
+            <as>
+                <trans lang="en">Backend Developer - DevOps</trans>
+                <trans lang="es">Desarollador backend - DevOps</trans>
+            </as>
             <project tech="ES6, pulumi, aws, puppet">
                 <trans lang="en">
                     Infrastructure migration to AWS using infrastructure as a code (IaaC) using autoscale, RDS, Route53 and 
@@ -494,6 +531,10 @@
                 VRIM Universidad de Concepción / Asociacion de municipalidades para la preservacion de la 
                 biodiversidad del territorio Nonguén y otros ecosistemas
             </for>
+            <as>
+                <trans lang="en">GIS software consultant</trans>
+                <trans lang="es">Consultor de software SIG</trans>
+            </as>
             <project tech="Infrastructure design, Software design">
                 <trans lang="en">
                     Planner, architect and developer of a GIS platform for territory planning also being oriented 
@@ -610,6 +651,10 @@
         -->
         <job from="2014-09" to="2014-09">   
             <for>IPLink hosting</for>
+            <as>
+                <trans lang="en">nginx plugin developer</trans>
+                <trans lang="es">Desarrollador de plugin para nginx</trans>
+            </as>
             <project tech="perl, nginx">
                 <trans lang="en">
                     Build of a SMTP gateway developing a perl nginx module to deliver SMTP mail to the clients of 

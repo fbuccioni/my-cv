@@ -12,6 +12,7 @@
     <xsl:variable name="trans__experience" as="xs:string" select="if ($lang = 'es') then 'Experiencia' else 'Experience'" />
     <xsl:variable name="trans__from" as="xs:string" select="if ($lang = 'es') then 'Desde' else 'Since'" />
     <xsl:variable name="trans__to" as="xs:string" select="if ($lang = 'es') then 'hasta' else 'to'" />
+    <xsl:variable name="trans__as" as="xs:string" select="if ($lang = 'es') then 'como' else 'as'" />
     <xsl:variable name="trans__more_jobs" as="xs:string" select="if ($lang = 'es') then 'Más {n} trabajos anteriores, para más información preguntar directamente' else 'And {n} more previous jobs, for more information please ask directly'" />
     <xsl:variable name="trans__relocatable" as="xs:string" select="if ($lang = 'es') then 'Reubicable' else 'Relocatable'" />
     <xsl:variable name="trans__englishlevel" as="xs:string" select="if ($lang = 'es') then 'Nivel de inglés' else 'English level'" />
@@ -98,15 +99,24 @@
                                             </xsl:for-each>
                                         </td>
                                         <td>
-                                            <xsl:value-of select="$trans__from" />
-                                            <xsl:text> </xsl:text>
-                                            <xsl:value-of select="@from" />
-                                            <xsl:if test="@to">
-                                                <xsl:text> </xsl:text>
-                                                <xsl:value-of select="$trans__to" />
-                                                <xsl:text> </xsl:text>
-                                                <xsl:value-of select="@to" />
+                                            <xsl:if test="as">
+                                                <div class="as">
+                                                    <xsl:for-each select="as">
+                                                        <xsl:call-template name="trans" />
+                                                    </xsl:for-each>
+                                                </div>
                                             </xsl:if>
+                                            <div class="date">
+                                                <xsl:value-of select="$trans__from" />
+                                                <xsl:text> </xsl:text>
+                                                <xsl:value-of select="@from" />
+                                                <xsl:if test="@to">
+                                                    <xsl:text> </xsl:text>
+                                                    <xsl:value-of select="$trans__to" />
+                                                    <xsl:text> </xsl:text>
+                                                    <xsl:value-of select="@to" />
+                                                </xsl:if>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr>
