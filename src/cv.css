@@ -114,6 +114,28 @@ aside table.skills  {
 aside table.skills td {
     padding: 0.1rem 0;
     vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+aside table.skills.non-starred td {
+    padding: 0.1rem 0.4rem;
+    vertical-align: middle;
+}
+
+aside table.skills.non-starred td::before {
+    content: "ᨔ";
+    color: #fff;
+    padding-right: 0.3rem;
+}
+
+aside table.skills th {
+    padding: 0.6rem 0;
+    padding-bottom: 0.25rem;
+    font-weight: bold;
+    text-align: left;
+    font-size: 105%;
+    color: #fff;
 }
 
 aside table.skills tr.english-level > td {

@@ -87,7 +87,6 @@
                                     Debido a mi larga trayectoria, esta es mi experiencia destacada, para mas información
                                     por favor consulteme personalmente.
                                 </xsl:if>
-                                <xsl:variable name="trans__experience_highlights" as="xs:string" select="if ($lang = 'es') then 'Esta es solo experiencia destacada' else 'Experience'" />
                             </div>
                             </xsl:if>
                             <table cellpadding="0" cellspaging="0" border="0">
@@ -179,15 +178,22 @@
                     <section>
                         <div class="title"><xsl:value-of select="$trans__skills" /></div>
                         <table class="skills" cellpadding="0" cellspacing="0" border="0">
+                        <xsl:attribute name="class">skills<xsl:if test="/cv/skills/@use-stars = 'no'"> non-starred</xsl:if></xsl:attribute>
                         <xsl:if test="cv/skills/english">
                             <tr class="english-level">
                                 <td>English level</td>
                                 <td><xsl:value-of select="cv/skills/english" /></td>
                             </tr>
                         </xsl:if>
-                        <xsl:for-each select="cv/skills/skill">
+                        <xsl:variable name="use_stars" as="xs:boolean" select="/cv/skills/@use-stars = 'no'" />
+                        <xsl:for-each select="cv/skills/type">
                             <tr>
-                                <td><xsl:value-of select="." /></td>
+                                <th colspan="2"><xsl:for-each select="name"><xsl:call-template name="trans" /></xsl:for-each></th>
+                            </tr>
+                            <xsl:for-each select="skill">
+                            <tr>
+                                <td><xsl:call-template name="trans" /></td>
+                                <xsl:if test="/cv/skills/@use-stars != 'no'">
                                 <td class="rate">
                                     <span class="star-solid">
                                     <xsl:for-each select="1 to xs:integer(@rate)">★</xsl:for-each>
@@ -198,9 +204,11 @@
                                         </span>
                                     </xsl:if>
                                 </td>
+                                </xsl:if>
                             </tr>
+                            </xsl:for-each>
                         </xsl:for-each>
-                        </table>
+                        </table> 
                     </section>
                 </aside>
             </body>
