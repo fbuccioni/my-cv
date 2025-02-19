@@ -75,62 +75,183 @@
         </link>
     </links>
     <personal>
-        <location relocatable="no">
-            <trans lang="en">Chile, South America, Earth, Milky Way</trans>
-            <trans lang="es">Chile, Sudamérica, Tierra, Vía Láctea</trans>
+        <location relocatable="yes">
+            <trans lang="en">Viña del Mar, Chile</trans>
+            <trans lang="es">Viña del Mar, Chile</trans>
         </location>
         <phone>+56 9 87543409</phone>
         <email>felipe.buccioni@gmail.com</email>
     </personal>
-    <skills max-rate="5">
-        <english>B1 / B2</english>
+    <languages>
+        <english>B2</english>
+    </languages>
+    <skills max-rate="5" use-stars="no">
+        <type>
+            <name>
+                <trans lang="en">Lead and management</trans>
+                <trans lang="es">Liderazgo y administración</trans>
+            </name>
+            <skill rate="4">
+                <trans lang="en">Development planning</trans>
+                <trans lang="es">Planificación de desarrollo</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Problem solving</trans>
+                <trans lang="es">Resolución de problemas</trans>
+            </skill>
+            <skill rate="3">
+                <trans lang="en">Team management</trans>
+                <trans lang="es">Gestión de equipos</trans>
+            </skill>
+            <skill rate="3">
+                <trans lang="en">Infrastructure design</trans>
+                <trans lang="es">Diseño de infraestructura</trans>
+            </skill>
+            <skill rate="3">
+                <trans lang="en">Database design</trans>
+                <trans lang="es">Diseño de bases de datos</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Software design</trans>
+                <trans lang="es">Diseño de software</trans>
+            </skill>
+            <skill rate="3">
+                <trans lang="en">Software architecture</trans>
+                <trans lang="es">Arquitectura de software</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Design patterns</trans>
+                <trans lang="es">Patrones de diseño</trans>
+            </skill>
+            <skill rate="3">Lead developer</skill>
+        </type>
 
-        <skill rate="4">Development planning</skill>
-        <skill rate="4">Problem solving</skill>
-        <skill rate="3">Team management</skill>
-        <skill rate="3">Infrastructure design</skill>
-        <skill rate="3">Database design</skill>
-        <skill rate="4">Software design</skill>
-        <skill rate="3">Software architecture</skill>
-        <skill rate="4">Design patterns</skill>
-        <skill rate="3">Query optimization</skill>
-        <skill rate="4">Integration</skill>
+        <type>
+            <name>
+                <trans lang="en">Development</trans>
+                <trans lang="es">Desarrollo</trans>
+            </name>
+            <skill rate="5">
+                <trans lang="en">Plugin</trans>
+                <trans lang="es">Plugins</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">Libraries</trans>
+                <trans lang="es">Librerias</trans>
+            </skill>
+            <skill rate="5">Backend</skill>
+            <skill rate="4">REST API</skill>
+            <skill rate="4">Full stack</skill>
+            <skill rate="4">
+                <trans lang="en">Integrations</trans>
+                <trans lang="es">Integraciónes</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">GIS</trans>
+                <trans lang="es">SIG</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Geoprocessing</trans>
+                <trans lang="es">Geoprocesamiento</trans>
+            </skill>
+        </type>
 
-        <skill rate="5">Plugin/Library dev</skill>
-        <skill rate="5">Backend development</skill>
-        <skill rate="4">REST API development</skill>
+        <type>
+            <name>
+                <trans lang="en">Languages</trans>
+                <trans lang="es">Lenguajes</trans>
+            </name>
+            <skill rate="5">Python</skill>
+            <skill rate="4">TypeScript</skill>
+            <skill rate="5">JavaScript/ECMAScript</skill>
+            <skill rate="4">CSS</skill>
+        </type>
 
-        <skill rate="4">TypeScript</skill>
-        <skill rate="5">JavaScript (ES)</skill>
-        <skill rate="5">Python</skill>
-        <skill rate="5">Bash</skill>
+        <type>
+            <name>
+                <trans lang="en">Frameworks and libraries</trans>
+                <trans lang="es">Frameworks y librerias</trans>
+            </name>
+            <skill rate="4">FastAPI</skill>
+            <skill rate="4">NestJS</skill>
+            <skill rate="5">Django REST</skill>
+            <skill rate="3">Flask</skill>
+            <skill rate="3">Angular</skill>
+            <skill rate="4">GeoDjango</skill>
+            <skill rate="5">leaflet</skill>
+            <skill rate="5">OpenSeadragon</skill>
+            <skill rate="3">PostGIS</skill>
+        </type>
 
-        <skill rate="4">NestJS</skill>
-        <skill rate="2">Angular</skill>
-        <skill rate="5">Django REST</skill>
-        <skill rate="4">FastAPI</skill>
-        <skill rate="4">CSS</skill>
+        <type>
+            <name>
+                <trans lang="en">Cloud providers</trans>
+                <trans lang="es">Proveedores de nube</trans>
+            </name>
+            <skill rate="3">AWS</skill>
+            <skill rate="2">Azure</skill>
+        </type>
 
-        <skill rate="3">AWS</skill>
-        <skill rate="4">AWS Lambda</skill>
-        <skill rate="3">AWS Cloudformation</skill>
-        <skill rate="3">ffmpeg</skill>
-        <skill rate="4">Docker</skill>
-        <skill rate="5">Linux</skill>
-        <skill rate="3">Pulumi</skill>
-        <skill rate="3">Networking</skill>
+        <type>
+            <name>DevOps</name>
+            <skill rate="3">CDK</skill>
+            <skill rate="4">Docker</skill>
+            <skill rate="5">Linux</skill>
+            <skill rate="3">Pulumi</skill>
+            <skill rate="4">Pipelines</skill>
+            <skill rate="4">git</skill>
+            <skill rate="5">bash</skill>
+        </type>
 
-        <skill rate="5">GIS</skill>
-        <skill rate="4">Media streaming</skill>
-        <skill rate="4">RPA</skill>
+        <type>
+            <name>
+                <trans lang="en">Services and tools</trans>
+                <trans lang="es">Servicios y herramientas</trans>
+            </name>
+            <skill rate="3">ffmpeg</skill>
+            <skill rate="4">Mapserver</skill>
+        </type>
 
-        <skill rate="4">Documental databases</skill>
-        <skill rate="4">Relational databases</skill>
-
-        <skill rate="4">GeoDjango</skill>
-        <skill rate="5">leaflet</skill>
-        <skill rate="5">OpenSeadragon</skill>
-        <skill rate="4">Mapserver</skill>
+        <type>
+            <name>
+                <trans lang="en">Complementary skills</trans>
+                <trans lang="es">Habilidades complementarias</trans>
+            </name>
+            <skill rate="3">
+                <trans lang="en">Query optimization</trans>
+                <trans lang="es">Optimización de consultas</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Documental databases</trans>
+                <trans lang="es">Bases de datos documentales</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Relational databases</trans>
+                <trans lang="es">Bases de datos relacionales</trans>
+            </skill>
+            <skill rate="4">DevOps</skill>
+            <skill rate="3">
+                <trans lang="en">Networking</trans>
+                <trans lang="es">Redes</trans>
+            </skill>
+            <skill rate="4">RPA</skill>
+            <skill rate="4">ETL</skill>
+            <skill rate="4">Webhooks</skill>
+            <skill rate="4">Queue</skill>
+            <skill rate="4">Media streaming</skill>
+            <skill rate="4">
+                <trans lang="en">Image compression</trans>
+                <trans lang="es">Compresión de imágenes</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Computer cartograpghy</trans>
+                <trans lang="es">Cartografía digital</trans>
+            </skill>
+            <skill rate="3">
+                <trans lang="en">Wowza management</trans>
+                <trans lang="es">Administracion de wowza</trans>
+            </skill>
+        </type>
     </skills>
     <jobs highlights="yes">
         <job from="2024-10">
