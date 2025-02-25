@@ -9,6 +9,6 @@ build scripts and processors runtime built over `node.js`.
 - [English](dist/cv.en.html)
 - [Spanish](dist/cv.es.html)
 
-### PDF dowloadable version
+### PDF downloadable version
 - [English](dist/cv.en.pdf)
 - [Spanish](dist/cv.es.pdf)
