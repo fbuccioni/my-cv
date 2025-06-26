@@ -162,7 +162,7 @@
                 <trans lang="es">Lenguajes</trans>
             </name>
             <skill rate="5">Python</skill>
-            <skill rate="4">TypeScript</skill>
+            <skill rate="5">TypeScript</skill>
             <skill rate="5">JavaScript/ECMAScript</skill>
             <skill rate="4">CSS</skill>
         </type>
@@ -254,6 +254,49 @@
         </type>
     </skills>
     <jobs highlights="yes">
+        <job from="2025-04" to="2025-06">
+            <for type="Personal - Open source">aequum framework</for>
+            <as>
+                <trans lang="en">Creator</trans>
+                <trans lang="es">Creador</trans>
+            </as>
+            <project tech="NestJS, software design patterns, TypeScript, Swagger, TypeORM, Mongoose, npm">
+                <trans lang="en">
+                    Designer, planner and developer for a framework to build applications in 
+                    hexagonal architecture for NestJS or standalone, to make common things
+                    easier to make, with features like simple CRUD/CRUDL services and 
+                    controllers with full OpenAPI, TypeORM and Mongoose paginated repositories, 
+                    authentication, authorization, DTOs, types and more.
+                </trans>
+                <trans lang="es">
+                    Diseñador, planificador y desarrollador de un framework para construir 
+                    aplicaciones en arquitectura hexagonal para NestJS o solo, haciendo lo
+                    comun mas facil, con características como servicios y controladores CRUD/CRUDL sencillos con OpenAPI completo, 
+                    repositorios paginados para TypeORM y Mongoose, autenticación, autorización, 
+                    DTOs, tipos y más.
+                </trans>
+            </project>
+        </job>
+        <job from="2025-01" to="2025-03">
+            <for>DIGINTEG</for>
+            <as>
+                <trans lang="en">Software consultant</trans>
+                <trans lang="es">Consultor de software</trans>
+            </as>
+            <project tech="NestJS, software design patterns, Mongoose, Angular, aequum">
+                <trans lang="en">
+                    Software design, backend and frontend developer for a data source 
+                    application, creating data structures for the client to fill it
+                    with data, which will be exported via JSON to ad screens.
+                </trans>
+                <trans lang="es">
+                    Diseño de software y desarrollo backand y frontend para una 
+                    aplicación de fuente de datos, creando estructuras de datos 
+                    para que el cliente la llene de datos, los cuales serán exportados 
+                    vía JSON a pantallas publicitarias.
+                </trans>
+            </project>
+        </job>
         <job from="2024-10">
             <for type="Pet project">Upki</for>
             <as>
@@ -278,20 +321,6 @@
                 <trans lang="es">
                     Lider de equipo y administración de un pequeño equipo de 3 estudiantes
                     en práctica en desarrollo frontend y backend, 1 diseñador y 1 DevOps
-                </trans>
-            </project>
-            <project tech="NestJS, software design patterns, TypeScript, Swagger, TypeORM, Mongoose">
-                <trans lang="en">
-                    Developer of a base service boilerplate for NestJS with software design patterns
-                    like CRUD operations, repository pattern, DTOs, etc. also
-                    implementing authorization, authentication, services and documentation
-                    integrating TypeORM, Mongoose and Swagger in an easy way.
-                </trans>
-                <trans lang="es">
-                    Desarrollador de un boilerplate de servicio base para NestJS con patrones de diseño
-                    de software como operaciones CRUD, patrón de repositorio, DTOs, etc. también
-                    implementando autorización, autenticación, servicios y documentación
-                    integrando TypeORM, Mongoose y Swagger de una manera fácil.
                 </trans>
             </project>
         </job>
