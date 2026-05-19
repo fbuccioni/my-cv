@@ -134,7 +134,7 @@
                                         <td>
                                             <ul>
                                             <xsl:for-each select="project">
-                                                <li>
+                                                <li class="project">
                                                     <xsl:call-template name="trans" />
                                                     <xsl:if test="string-length(@tech)">
                                                     <small>(<xsl:value-of select="@tech" />)</small>
