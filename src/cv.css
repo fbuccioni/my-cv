@@ -45,6 +45,19 @@ body {
         background-color: transparent;
         box-shadow: none;
     }
+
+    /** Page break **/
+    content > section.experience > table > tbody > tr:nth-of-type(5) > td {
+        padding-top: 150pt;
+    }
+
+    content > section.experience > table > tbody > tr:nth-of-type(15) > td {
+        padding-top: 20pt !important;
+    }
+
+    aside > section > table.skills tbody > tr:nth-of-type(57) > th {
+        padding-top: 50pt
+    }
 }
 
 a {
@@ -67,7 +80,7 @@ aside {
     position: absolute;
     right: 0px;
     top: 0.5px;
-    height: 100%;
+    height: calc(100% - 1px);
     box-shadow:
         0.5px -1px calc(0.5rem - 1px) #444,
         -0.5px -1px calc(0.5rem - 1px) rgba(68, 68, 68, 0.5)

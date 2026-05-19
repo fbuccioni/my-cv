@@ -112,12 +112,16 @@
                 <trans lang="es">Diseño de bases de datos</trans>
             </skill>
             <skill rate="4">
-                <trans lang="en">Software design</trans>
-                <trans lang="es">Diseño de software</trans>
+                <trans lang="en">Software Engenieering</trans>
+                <trans lang="es">Ingeniería de software</trans>
             </skill>
             <skill rate="3">
                 <trans lang="en">Software architecture</trans>
                 <trans lang="es">Arquitectura de software</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Software design</trans>
+                <trans lang="es">Diseño de software</trans>
             </skill>
             <skill rate="4">
                 <trans lang="en">Design patterns</trans>
@@ -125,7 +129,20 @@
             </skill>
             <skill rate="3">Lead developer</skill>
         </type>
-
+        <type>
+            <name>ML / LLM</name>
+            <skill rate="3">
+                <trans lang="en">Prompt engineer</trans>
+                <trans lang="es">Ingeniería de prompt</trans>
+            </skill>
+            <skill rate="3">
+                Tool calling / Function calling
+            </skill>
+            <skill rate="3">RAG</skill>
+            <skill rate="3">OpenAI API</skill>
+            <skill rate="3">Google LLM API</skill>
+            <skill rate="4">OpenAI vector store</skill>
+        </type>
         <type>
             <name>
                 <trans lang="en">Development</trans>
@@ -254,6 +271,105 @@
         </type>
     </skills>
     <jobs highlights="yes">
+        <job from="2025-07" to="2026-05">
+            <for>ChatLPO</for>
+            <as>Software architect &amp; lead devloper</as>
+            <project tech="Tech leadership, software engineering, software design patterns, FastAPI">
+                <trans lang="en">
+                    **Led the architectural evolution of a monolithic application** into an modulith with hexagonal
+                    architecture as strategy to reach microservices ecosystem.
+                </trans>
+                <trans lang="es">
+                    **Lider de la evolución arquitectónica de una aplicación monolítica** hacia una arquitectura modular
+                    (modulith) con hexagonal como estrategia para alcanzar un ecosistema de microservicios
+                </trans>
+            </project>
+            <project tech="Python, strict type annotations, SOLID, Clean code, OpenAPI, hexagonal architecture">
+                <trans lang="en">
+                    **Designed and implemented code policies and development guidelines.**
+                </trans>
+                <trans lang="es">
+                    **Diseño e implementación de políticas de código y directrices de desarrollo.**
+                </trans>
+            </project>
+            <project tech="DI, Containers, Factory, Builder, SOLID, Class based views, Python, SQLAlchemy, SQLModel, alembic, FastAPI, Pydantic, hexagonal architecture, Software documentation">
+                <trans lang="en">
+                    **Made a Hexagonal Architecture framework**, leveraging advanced design patterns and developing
+                    encapsulated, reusable CRUDL components (repositories, services and views) with optimized
+                    filtering and pagination.
+                </trans>
+                <trans lang="es">
+                    **Creacion de un framework de arquitectura hexagonal**, usando patrones de diseño avanzados
+                    y desarrollando componentes CRUDL encapsulados y reutilizables (repositorios, servicios y vistas)
+                    con filtrado y paginación optimizados.
+                </trans>
+            </project>
+            <project tech="SRP, Security, Lead developer">
+                <trans lang="en">
+                    **Upgraded and hardened production RAG app from an MVP+ status** by decoupling services,
+                    separating LLM prompting/tuning and securing environments with secret managers.
+                </trans>
+                <trans lang="es">
+                    **Actualización y refuerzo de la aplicación RAG de producción a partir de una versión MVP+**
+                    mediante la desacoplamiento de servicios, la separacion de las tareas de generación prompts y
+                    ajuste del LLM y la protección de los entornos con gestores de secretos.
+                </trans>
+            </project>
+            <project tech="Azure DevOps, Azure cloud, Azure permissions">
+                <trans lang="en">
+                    **Cloud management, improvement of pipelines and create environments**
+                </trans>
+                <trans lang="es">
+                    **Manejo de nube, mejora de pipelines y creacion de entornos**
+                </trans>
+            </project>
+            <project tech="LangChain, Prompt engenieering, Image Generation, Vector Search, Eventing, MSSQL, RAG, OpenAI, OpenAI vector store">
+                <trans lang="en">
+                    **Optimize IA and third-party integrations** refactoring critical services and improving third-party
+                    integrations
+                </trans>
+                <trans lang="es">
+                    **Optimizar la arquitectura de la IA y las integraciones con terceros** mediante la refactorización
+                    de servicios críticos y la mejora de las integraciones con terceros
+                </trans>
+            </project>
+            <project tech="SQLAlchemy, SQLModel, Pydantic, alembic, MSSQL">
+                <trans lang="en">
+                    **Optimize relational database management and architecture** by redesigning tables, indexes,
+                    implementing migrations and a decomposition plan
+                </trans>
+                <trans lang="es">
+                    **Optimización de la gestión y arquitectura de bases de datos relacionales** mediante el
+                    rediseño de tablas e índices, implementación de migraciones y un plan para la descomposicion
+                </trans>
+            </project>
+            <project tech="LLM, LangChain, prompt engineering, LLM tooling, text structuring, RAG, Pydantic">
+                <trans lang="en">
+                    **Improve prompts and LLM results** usando prompt engineering, provide structured contexts and
+                    tool calling / function calling
+                </trans>
+                <trans lang="es">
+                    **Mejora de prompts y resultados del LLM** mediante la ingeniería de prompt, proporcionando
+                    contextos estructurados y llamadas de herramientas / llamadas a funciones LLM
+                </trans>
+            </project>
+            <project tech="Software Engenieering, Mentoring, Guide, Software documentation">
+                <trans lang="en">
+                    **Provide technical mentorship and comprehensive architectural documentation.**
+                </trans>
+                <trans lang="es">
+                     **Ofrecer asesoramiento técnico y documentación arquitectónica completa.**
+                </trans>
+            </project>
+            <project tech="Process optimization, marketing, team management, BI">
+                <trans lang="en">
+                    **Delivered cross-functional consultancy to optimize business operations**
+                </trans>
+                <trans lang="es">
+                    **Presté servicios de consultoría interdepartamental para optimizar las operaciones empresariales**
+                </trans>
+            </project>
+        </job>
         <job from="2025-04" to="2025-06">
             <for type="Personal - Open source">aequum framework</for>
             <as>
@@ -262,17 +378,17 @@
             </as>
             <project tech="NestJS, software design patterns, TypeScript, Swagger, TypeORM, Mongoose, npm">
                 <trans lang="en">
-                    **Designer, planner and developer for a framework to build applications in 
+                    **Designer, planner and developer for a framework to build applications in
                     hexagonal architecture** for NestJS or standalone, to make common things
-                    easier to make, with features like simple CRUD/CRUDL services and 
-                    controllers with full OpenAPI, TypeORM and Mongoose paginated repositories, 
+                    easier to make, with features like simple CRUD/CRUDL services and
+                    controllers with full OpenAPI, TypeORM and Mongoose paginated repositories,
                     authentication, authorization, DTOs, types and more.
                 </trans>
                 <trans lang="es">
-                    **Diseñador, planificador y desarrollador de un framework para construir 
+                    **Diseñador, planificador y desarrollador de un framework para construir
                     aplicaciones en arquitectura hexagonal** para NestJS o solo, haciendo lo
-                    comun mas facil, con características como servicios y controladores CRUD/CRUDL 
-                    sencillos con OpenAPI completo, repositorios paginados para TypeORM y Mongoose, 
+                    comun mas facil, con características como servicios y controladores CRUD/CRUDL
+                    sencillos con OpenAPI completo, repositorios paginados para TypeORM y Mongoose,
                     autenticación, autorización, DTOs, tipos y más.
                 </trans>
             </project>
@@ -285,14 +401,14 @@
             </as>
             <project tech="NestJS, software design patterns, Mongoose, Angular, aequum">
                 <trans lang="en">
-                    **Software design, backend and frontend developer for a data source 
+                    **Software design, backend and frontend developer for a data source
                     application**, creating data structures for the client to fill it
                     with data, which will be exported via JSON to ad screens.
                 </trans>
                 <trans lang="es">
-                    **Diseño de software y desarrollo backand y frontend para una 
-                    aplicación de fuente de datos**, creando estructuras de datos 
-                    para que el cliente la llene de datos, los cuales serán exportados 
+                    **Diseño de software y desarrollo backand y frontend para una
+                    aplicación de fuente de datos**, creando estructuras de datos
+                    para que el cliente la llene de datos, los cuales serán exportados
                     vía JSON a pantallas publicitarias.
                 </trans>
             </project>
