@@ -84,8 +84,8 @@
                                     please ask me directly.
                                 </xsl:if>
                                 <xsl:if test="$lang = 'es'">
-                                    Debido a mi larga trayectoria, esta es mi experiencia destacada, para mas información
-                                    por favor consulteme personalmente.
+                                    Debido a mi larga trayectoria, esta es mi experiencia destacada, para más información
+                                    por favor consúlteme personalmente.
                                 </xsl:if>
                             </div>
                             </xsl:if>

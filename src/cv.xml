@@ -12,7 +12,7 @@
         <trans lang="es">
             Autodidacta y con más de 20 años de experiencia, interesado y motivado por la automejora
             continua, apasionado por la innovación. Mi vida profesional transcurre en diversos sectores
-            y mercados, donde he liderado varios proyectos de desarrollo de software y tecnologías de la
+            y mercados, donde he líderado varios proyectos de desarrollo de software y tecnologías de la
             información. El valor que podré aportar a su trabajo es encontrar soluciones frescas, creativas
             y flexibles a retos complicados.
         </trans>
@@ -33,7 +33,7 @@
                 </trans>
                 <trans lang="es">
                     Contribuciones y algunas modificaciones personalizadas a proyectos de código abierto,
-                    algunos plugins/librerias hechas por mi, experimentos y mas.
+                    algunos plugins/librerías mí, experimentos y más.
                 </trans>
             </description>
         </link>
@@ -51,7 +51,7 @@
                     languages and areas.
                 </trans>
                 <trans lang="es">
-                    Respuestas y preguntas por mi acerca de desarrollo y programación en
+                    Respuestas y preguntas por mí acerca de desarrollo y programación en
                     diferentes lenguajes y áreas
                 </trans>
             </description>
@@ -89,7 +89,7 @@
         <type>
             <name>
                 <trans lang="en">Lead and management</trans>
-                <trans lang="es">Liderazgo y administración</trans>
+                <trans lang="es">Líderazgo y administración</trans>
             </name>
             <skill rate="4">
                 <trans lang="en">Development planning</trans>
@@ -112,7 +112,7 @@
                 <trans lang="es">Diseño de bases de datos</trans>
             </skill>
             <skill rate="4">
-                <trans lang="en">Software Engenieering</trans>
+                <trans lang="en">Software Engineering</trans>
                 <trans lang="es">Ingeniería de software</trans>
             </skill>
             <skill rate="3">
@@ -154,7 +154,7 @@
             </skill>
             <skill rate="5">
                 <trans lang="en">Libraries</trans>
-                <trans lang="es">Librerias</trans>
+                <trans lang="es">Librerías</trans>
             </skill>
             <skill rate="5">Backend</skill>
             <skill rate="4">REST API</skill>
@@ -187,7 +187,7 @@
         <type>
             <name>
                 <trans lang="en">Frameworks and libraries</trans>
-                <trans lang="es">Frameworks y librerias</trans>
+                <trans lang="es">Frameworks y librerías</trans>
             </name>
             <skill rate="4">FastAPI</skill>
             <skill rate="4">NestJS</skill>
@@ -273,14 +273,14 @@
     <jobs highlights="yes">
         <job from="2025-07" to="2026-05">
             <for>ChatLPO</for>
-            <as>Software architect &amp; lead devloper</as>
+            <as>Software architect &amp; lead developer</as>
             <project tech="Tech leadership, software engineering, software design patterns, FastAPI">
                 <trans lang="en">
                     **Led the architectural evolution of a monolithic application** into an modulith with hexagonal
                     architecture as strategy to reach microservices ecosystem.
                 </trans>
                 <trans lang="es">
-                    **Lider de la evolución arquitectónica de una aplicación monolítica** hacia una arquitectura modular
+                    **Líder de la evolución arquitectónica de una aplicación monolítica** hacia una arquitectura modular
                     (modulith) con hexagonal como estrategia para alcanzar un ecosistema de microservicios
                 </trans>
             </project>
@@ -311,7 +311,7 @@
                 </trans>
                 <trans lang="es">
                     **Actualización y refuerzo de la aplicación RAG de producción a partir de una versión MVP+**
-                    mediante la desacoplamiento de servicios, la separacion de las tareas de generación prompts y
+                    mediante el desacoplamiento de servicios, la separación de las tareas de generación prompts y
                     ajuste del LLM y la protección de los entornos con gestores de secretos.
                 </trans>
             </project>
@@ -320,10 +320,10 @@
                     **Cloud management, improvement of pipelines and create environments**
                 </trans>
                 <trans lang="es">
-                    **Manejo de nube, mejora de pipelines y creacion de entornos**
+                    **Manejo de nube, mejora de pipelines y creación de entornos**
                 </trans>
             </project>
-            <project tech="LangChain, Prompt engenieering, Image Generation, Vector Search, Eventing, MSSQL, RAG, OpenAI, OpenAI vector store">
+            <project tech="LangChain, Prompt engineering, Image Generation, Vector Search, Eventing, MSSQL, RAG, OpenAI, OpenAI vector store">
                 <trans lang="en">
                     **Optimize IA and third-party integrations** refactoring critical services and improving third-party
                     integrations
@@ -345,7 +345,7 @@
             </project>
             <project tech="LLM, LangChain, prompt engineering, LLM tooling, text structuring, RAG, Pydantic">
                 <trans lang="en">
-                    **Improve prompts and LLM results** usando prompt engineering, provide structured contexts and
+                    **Improve prompts and LLM results** using prompt engineering, provide structured contexts and
                     tool calling / function calling
                 </trans>
                 <trans lang="es">
@@ -353,7 +353,7 @@
                     contextos estructurados y llamadas de herramientas / llamadas a funciones LLM
                 </trans>
             </project>
-            <project tech="Software Engenieering, Mentoring, Guide, Software documentation">
+            <project tech="Software Engineering, Mentoring, Guide, Software documentation">
                 <trans lang="en">
                     **Provide technical mentorship and comprehensive architectural documentation.**
                 </trans>
@@ -387,7 +387,7 @@
                 <trans lang="es">
                     **Diseñador, planificador y desarrollador de un framework para construir
                     aplicaciones en arquitectura hexagonal** para NestJS o solo, haciendo lo
-                    comun mas facil, con características como servicios y controladores CRUD/CRUDL
+                    común mas fácil, con características como servicios y controladores CRUD/CRUDL
                     sencillos con OpenAPI completo, repositorios paginados para TypeORM y Mongoose,
                     autenticación, autorización, DTOs, tipos y más.
                 </trans>
@@ -403,7 +403,7 @@
                 <trans lang="en">
                     **Software design, backend and frontend developer for a data source
                     application**, creating data structures for the client to fill it
-                    with data, which will be exported via JSON to ad screens.
+                    with data, which will be exported via JSON to ads screens.
                 </trans>
                 <trans lang="es">
                     **Diseño de software y desarrollo backand y frontend para una
@@ -417,7 +417,7 @@
             <for type="Pet project">Upki</for>
             <as>
                 <trans lang="en">Founder, tech leader, lead and backend developer</trans>
-                <trans lang="es">Fundador, lider técnico, desarollador líder y backend</trans>
+                <trans lang="es">Fundador, líder técnico, desarollador líder y backend</trans>
             </as>
             <project tech="Problem solving, architecture, software design, infrastructure design">
                 <trans lang="en">
@@ -425,7 +425,7 @@
                     transport.
                 </trans>
                 <trans lang="es">
-                    **Planificador, arquitecto y lider técnico de una plataforma SaaS** para
+                    **Planificador, arquitecto y líder técnico de una plataforma SaaS** para
                     administrar transporte escolar.
                 </trans>
             </project>
@@ -435,7 +435,7 @@
                     frontend and backend development, 1 designer and 1 DevOps
                 </trans>
                 <trans lang="es">
-                    **Lider de equipo y administración de un pequeño equipo** de 3 estudiantes
+                    **Líder de equipo y administración de un pequeño equipo** de 3 estudiantes
                     en práctica en desarrollo frontend y backend, 1 diseñador y 1 DevOps
                 </trans>
             </project>
@@ -444,7 +444,7 @@
             <for>Modulonet</for>
             <as>
                 <trans lang="en">Library developer, browser developer</trans>
-                <trans lang="es">Desarrollador de librerias node, desarrollador de
+                <trans lang="es">Desarrollador de librerías node, desarrollador de
                     navegadores web</trans>
             </as>
             <project tech="ES/JavsScript, MS-CFB, JSDoc">
@@ -514,8 +514,8 @@
                 </trans>
                 <trans lang="es">
                     **Establecer procesos de desarrollo y hacer un plan de recuperación** de un
-                    refactor con un montón de malas prácticas que dejaron el software en un
-                    estado malo, con muchos errores y problemas de rendimiento en el software,
+                    refactor con un muchas de malas prácticas que dejaron el software en un
+                    mal estado, con muchos errores y problemas de rendimiento en el software,
                     infraestructura y desarrollo
                 </trans>
             </project>
@@ -599,7 +599,7 @@
             <project tech="ES/JavaScript, TypeScript, JSDoc, npm">
                 <trans lang="en">
                     **Development of node.js library** to connect to Shinkansen
-                    finnance provider porting their python package
+                    finance provider porting their python package
                 </trans>
                 <trans lang="es">
                     **Desarrollo de librería node.js** para conectar con proveedor
@@ -611,14 +611,14 @@
             <for>Kudzu logistics</for>
             <as>
                 <trans lang="en">Senior Backend Developer - Library Developer - Integration developer</trans>
-                <trans lang="es">Desarrollador backend senior - Desarrollador de librerias - Desarrollador de integraciones</trans>
+                <trans lang="es">Desarrollador backend senior - Desarrollador de librerías - Desarrollador de integraciones</trans>
             </as>
             <positions>Senior Backend Developer / API Integrator / Consulting / Team leader</positions>
             <location>Santiago, Chile</location>
             <project tech="python, FastAPI, Azure functions, Azure CosmosDB, Azure CosmosDB API for MongoDB, MongoDB, serverless arch">
                 <trans lang="en">
                     **Planning and developer of REST service for a car insurance company** to quotate, request and show details as costs,
-                    trips, behavior and stats from cars insured by company.
+                    trips, behaviour and stats from cars insured by company.
                 </trans>
                 <trans lang="es">
                     **Planificación y desarrollo de servicio REST para una compañía de seguros de auto** para cotizar, solicitar y mostrar
@@ -683,7 +683,7 @@
                     **Development of a library API to sign PDF files** using a commandline tool as backend
                 </trans>
                 <trans lang="es">
-                    **Desarollo de una API biblioteca para firmar archivos PDF** con una herramienta de linea
+                    **Desarollo de una API biblioteca para firmar archivos PDF** con una herramienta de línea
                     de comandos como backend
                 </trans>
             </project>
@@ -692,7 +692,7 @@
             <for>Somoscircular</for>
             <as>
                 <trans lang="en">Lead and backend developer</trans>
-                <trans lang="es">Desarollador lider y backend</trans>
+                <trans lang="es">Desarollador líder y backend</trans>
             </as>
             <project tech="python, Django, Django REST, Django JET, GeoDjango, Google Geocode, Mailchimp, Twillio">
                 <trans lang="en">
@@ -700,7 +700,7 @@
                     somoscircular.com
                 </trans>
                 <trans lang="es">
-                    **Desarollador lider y backend en refacotizacion de los procesos de cliente y manejo** de
+                    **Desarollador líder y backend en refacotizacion de los procesos de cliente y manejo** de
                     somoscirular.com
                 </trans>
             </project>for
@@ -709,7 +709,7 @@
             <for>ETYCC S.A</for>
             <as>
                 <trans lang="en">Co-project Leader - Backend developer</trans>
-                <trans lang="es">Co lider de proyecto - Desarollador backend</trans>
+                <trans lang="es">Co líder de proyecto - Desarollador backend</trans>
             </as>
             <project tech="python, Django, Django REST, Django JET, JWT Auth, GeoDJango">
                 <trans lang="en">
@@ -717,7 +717,7 @@
                     Region in 1 month, also act like problem solver with the deployment on iOS with ionic
                 </trans>
                 <trans lang="es">
-                    Co lider de proyecto/Desarollador backend de aplicacion/plataforma de trazabilidad para el
+                    Co líder de proyecto/Desarollador backend de aplicacion/plataforma de trazabilidad para el
                     COVID-19** para la rebion de Aysén en 1 mes, tambien actué como solucionador de problemas con
                     ionic y iOS.
                 </trans>
@@ -727,14 +727,14 @@
             <for>ETYCC S.A</for>
             <as>
                 <trans lang="en">Co-Project Leader - Backend developer</trans>
-                <trans lang="es">Co lider de proyecto - Desarollador backend</trans>
+                <trans lang="es">Co líder de proyecto - Desarollador backend</trans>
             </as>
             <project tech="python, Django, Django REST, Django JET">
                 <trans lang="en">
                     **Co-Project Leader/Backend developer of long form** for bank application in 3 weeks
                 </trans>
                 <trans lang="es">
-                    **Co lider de proyecto/Desarollador backend para un largo formulario** de aplicación para bancos
+                    **Co líder de proyecto/Desarollador backend para un largo formulario** de aplicación para bancos
                     en 3 semanas
                 </trans>
             </project>
@@ -747,7 +747,7 @@
             </as>
             <project tech="python, OpenCV, TKInter, multiprocessing, sharedmem, IPC, Image processing, pyautogui, multiplatform Python, Design patterns">
                 <trans lang="en">
-                    **Multiplatform (Windows and linux) RPA Robot** who enters bank data to ERP softwar
+                    **Multiplatform (Windows and linux) RPA Robot** who enters bank data to ERP software
                 </trans>
                 <trans lang="es">
                     **Robot RPA multiplataforma (Windows y linux)** que ingresa datos a un software ERP
@@ -766,7 +766,7 @@
                     compute services
                 </trans>
                 <trans lang="es">
-                    **Migracion de intraestruNestJSctura a AWS usando intraestructura como codigo (IaaC)** con auto escalado, RDS, Route53
+                    **Migración de infraestructura a AWS usando intraestructura como codigo (IaaC)** con auto escalado, RDS, Route53
                     y compute services
                 </trans>
             </project>
@@ -961,8 +961,8 @@
                     a small VPS company
                 </trans>
                 <trans lang="es">
-                    **Creación de pasarela SMTP** desarollando un modulo nginx para distribuir el correo SMTP a los
-                    cliente de una pequeña empresa de VPS.
+                    **Creación de pasarela SMTP** desarrollando un modulo nginx para distribuir el correo SMTP a los
+                    clientes de una pequeña empresa de VPS.
                 </trans>
             </project>
         </job>
