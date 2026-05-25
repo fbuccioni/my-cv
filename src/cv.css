@@ -47,17 +47,43 @@ body {
     }
 
     /** Page break **/
-    content > section.experience > table > tbody > tr:nth-of-type(5) > td {
+
+    /* en - first page break */
+    body[lang="en"] content > section.experience > table > tbody > tr:nth-of-type(5) > td {
         padding-top: 150pt;
     }
 
-    content > section.experience > table > tbody > tr:nth-of-type(15) > td {
+    /* en - second page break */
+    body[lang="en"] content > section.experience > table > tbody > tr:nth-of-type(15) > td {
         padding-top: 20pt !important;
     }
 
-    aside > section > table.skills tbody > tr:nth-of-type(57) > th {
+    /* en - skill section break */
+    body[lang="en"] aside > section > table.skills tbody > tr:nth-of-type(57) > th {
         padding-top: 50pt
     }
+
+
+    /* es - first page break */
+    body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(5) > td {
+        padding-top: 120pt;
+    }
+
+    /* es - second page break */
+    body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(14) > td > ul > li:nth-of-type(4) {
+        padding-top: 30pt !important;
+    }
+
+    /* es - third page break */
+    body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(28) > td > ul > li:nth-of-type(4) {
+        padding-top: 55pt !important;
+    }
+
+    /* es - skill section break */
+    body[lang="es"] aside > section > table.skills tbody > tr:nth-of-type(57) > th {
+        padding-top: 50pt
+    }
+
 }
 
 a {

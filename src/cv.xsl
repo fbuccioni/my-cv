@@ -35,7 +35,7 @@
             <head>
                 <link rel="stylesheet" href="../src/cv.css" />
             </head>
-            <body>
+            <body lang="{$lang}">
                 <main>
                     <header>
                         <h1><xsl:value-of select="cv/@name"/></h1>
