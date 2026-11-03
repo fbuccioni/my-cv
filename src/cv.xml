@@ -273,6 +273,10 @@
     <jobs highlights="yes">
         <job from="2025-07" to="2026-05">
             <for>ChatLPO</for>
+            <type>
+                <trans lang="es">Contratado</trans>
+                <trans lang="en">Employee</trans>
+            </type>
             <as>Software architect &amp; lead developer</as>
             <project tech="Tech leadership, software engineering, software design patterns, FastAPI">
                 <trans lang="en">
@@ -371,7 +375,11 @@
             </project>
         </job>
         <job from="2025-04" to="2025-06">
-            <for type="Personal - Open source">aequum framework</for>
+            <for>aequum framework</for>
+            <type>
+                <trans lang="es">Proyecto personal de código abierto</trans>
+                <trans lang="en">Open source personal project</trans>
+            </type>
             <as>
                 <trans lang="en">Creator</trans>
                 <trans lang="es">Creador</trans>
@@ -395,9 +403,10 @@
         </job>
         <job from="2025-01" to="2025-03">
             <for>DIGINTEG</for>
+            <type>Freelance</type>
             <as>
-                <trans lang="en">Software consultant</trans>
-                <trans lang="es">Consultor de software</trans>
+                <trans lang="en">Solution Architect</trans>
+                <trans lang="es">Arquitecto de solución</trans>
             </as>
             <project tech="NestJS, software design patterns, Mongoose, Angular, aequum">
                 <trans lang="en">
@@ -413,8 +422,12 @@
                 </trans>
             </project>
         </job>
-        <job from="2024-10">
-            <for type="Pet project">Upki</for>
+        <job from="2024-10" type="Startup">
+            <for>Upki</for>
+            <type>
+                <trans lang="en">Startup project</trans>
+                <trans lang="es">Proyecto startup</trans>
+            </type>
             <as>
                 <trans lang="en">Founder, tech leader, lead and backend developer</trans>
                 <trans lang="es">Fundador, líder técnico, desarollador líder y backend</trans>
@@ -442,10 +455,10 @@
         </job>
         <job from="2024-04" to="2024-09">
             <for>Modulonet</for>
+            <type>Freelance</type>
             <as>
-                <trans lang="en">Library developer, browser developer</trans>
-                <trans lang="es">Desarrollador de librerías node, desarrollador de
-                    navegadores web</trans>
+                <trans lang="en">Technical architect, library and browser developer, R+D</trans>
+                <trans lang="es">Arquitecto técnico, desarrollador de libreria y navegador, I+D</trans>
             </as>
             <project tech="ES/JavsScript, MS-CFB, JSDoc">
                 <trans lang="en">
@@ -502,6 +515,10 @@
         </job>
         <job from="2022-10" to="2024-03">
             <for>Dily / TransaTuAuto</for>
+            <type>
+                <trans lang="es">Contratado</trans>
+                <trans lang="en">Employee</trans>
+            </type>
             <as>
                 <trans lang="en">Senior Backend Developer</trans>
                 <trans lang="es">Desarrollador backend senior</trans>
@@ -559,7 +576,7 @@
                     **Diseño de sistema de plugins** con clases e interfaces abstractas para diferentes proveedores en diferentes partes del software
                 </trans>
             </project>
-            <project tech="TypeScript, AWS, AWS CDK, AWS lambda, AWS SQS, AWS Secrets manager">
+            <project tech="Solution architect, TypeScript, AWS, AWS CDK, AWS lambda, AWS SQS, AWS Secrets manager">
                 <trans lang="en">
                     **Payout platform with isolated infrastructure**
                 </trans>
@@ -609,6 +626,10 @@
         </job>
         <job from="2020-03" to="2022-08">
             <for>Kudzu logistics</for>
+             <type>
+                <trans lang="es">Contratado</trans>
+                <trans lang="en">Employee</trans>
+            </type>
             <as>
                 <trans lang="en">Senior Backend Developer - Library Developer - Integration developer</trans>
                 <trans lang="es">Desarrollador backend senior - Desarrollador de librerías - Desarrollador de integraciones</trans>
@@ -674,6 +695,7 @@
         </job>
         <job from="2022-04" to="2022-06">
             <for>Modulonet</for>
+            <type>Freelance</type>
             <as>
                 <trans lang="en">Backend/API developer</trans>
                 <trans lang="es">Desarrollador backend/API</trans>
@@ -690,6 +712,7 @@
         </job>
         <job from="2021-04" to="2021-05">
             <for>Somoscircular</for>
+            <type>Freelance</type>
             <as>
                 <trans lang="en">Lead and backend developer</trans>
                 <trans lang="es">Desarollador líder y backend</trans>
@@ -707,6 +730,7 @@
         </job>
         <job from="2020-12" to="2021-01">
             <for>ETYCC S.A</for>
+            <type>Freelance</type>
             <as>
                 <trans lang="en">Co-project Leader - Backend developer</trans>
                 <trans lang="es">Co líder de proyecto - Desarollador backend</trans>
@@ -725,8 +749,9 @@
         </job>
         <job from="2020-09" to="2020-09">
             <for>ETYCC S.A</for>
+            <type>Freelance</type>
             <as>
-                <trans lang="en">Co-Project Leader - Backend developer</trans>
+                <trans lang="en"> type="Freelance"Co-Project Leader - Backend developer</trans>
                 <trans lang="es">Co líder de proyecto - Desarollador backend</trans>
             </as>
             <project tech="python, Django, Django REST, Django JET">
@@ -741,6 +766,7 @@
         </job>
         <job from="2020-06" to="2020-09">
             <for>Think2Process</for>
+            <type>Freelance</type>
             <as>
                 <trans lang="en">RPA developer</trans>
                 <trans lang="es">Desarollador RPA</trans>
@@ -756,6 +782,10 @@
         </job>
         <job from="2017-11" to="2020-02">
             <for>Retargeting</for>
+            <type>
+                <trans lang="es">Contratado</trans>
+                <trans lang="en">Employee</trans>
+            </type>
             <as>
                 <trans lang="en">Backend Developer - DevOps</trans>
                 <trans lang="es">Desarollador backend - DevOps</trans>
@@ -826,14 +856,17 @@
                 </trans>
             </project>
         </job>
-        <job from="2017-01" to="2017-06">
+        <job from="2017-01" to="2017-06" type="Project">
             <for>
-                VRIM Universidad de Concepción / Asociacion de municipalidades para la preservacion de la
-                biodiversidad del territorio Nonguén y otros ecosistemas
+                VRIM Universidad de Concepción / AM Nonguén
             </for>
+            <type>
+                <trans lang="en">Project</trans>
+                <trans lang="es">Proyecto</trans>
+            </type>
             <as>
-                <trans lang="en">GIS software consultant</trans>
-                <trans lang="es">Consultor de software SIG</trans>
+                <trans lang="en">Solution architect for GIS</trans>
+                <trans lang="es">Arquitecto de soluciones para SIG</trans>
             </as>
             <project tech="Infrastructure design, Software design">
                 <trans lang="en">
@@ -951,6 +984,7 @@
         -->
         <job from="2014-09" to="2014-09">
             <for>IPLink hosting</for>
+            <type>Freelance</type>
             <as>
                 <trans lang="en">nginx plugin developer</trans>
                 <trans lang="es">Desarrollador de plugin para nginx</trans>
