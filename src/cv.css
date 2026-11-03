@@ -272,7 +272,8 @@ content > section.experience table td:first-of-type {
 
 content > section.experience table td:first-of-type > small {
     font-weight: normal;
-    font-size: 90%;
+    font-style: italic;
+    font-size: 80%;
 }
 
 content > section.experience table td ul {

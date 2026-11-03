@@ -17,8 +17,13 @@
     <xsl:variable name="trans__more_jobs" as="xs:string" select="if ($lang = 'es') then 'Más {n} trabajos anteriores, para más información preguntar directamente' else 'And {n} more previous jobs, for more information please ask directly'" />
     <xsl:variable name="trans__relocatable" as="xs:string" select="if ($lang = 'es') then 'Reubicable' else 'Relocatable'" />
     <xsl:variable name="trans__englishlevel" as="xs:string" select="if ($lang = 'es') then 'Nivel de inglés' else 'English level'" />
-    <xsl:template name="trans">
-        <xsl:choose>
+    <xsl:variable name="trans__startup_project" as="xs:string" select="if ($lang = 'es') then 'Proyecto startup' else 'Startup project'" />
+    <xsl:variable name="trans__personal_project" as="xs:string" select="if ($lang = 'es') then 'Proyecto personal' else 'Personal project'" />
+    <xsl:variable name="trans__open_source" as="xs:string" select="if ($lang = 'es') then 'Código abierto' else 'Open source'" />
+    <xsl:variable name="trans__employee" as="xs:string" select="if ($lang = 'es') then 'Contratado' else 'Employee'" />
+    <xsl:variable name="trans__freelance" as="xs:string" select="if ($lang = 'es') then 'Freelance' else 'Freelance'" />
+    <xsl:variable name="trans__project" as="xs:string" select="if ($lang = 'es') then 'Proyecto' else 'Project'" />
+    <xsl:template name="trans"><xsl:choose>
             <xsl:when test="@lang = $lang">
                 <xsl:value-of select="concat(replace(@lang, '^\s*(.+?)\s*$', '$1'), ' ')" />
             </xsl:when>
@@ -28,8 +33,7 @@
             <xsl:otherwise>
                 <xsl:value-of select="concat(replace(., '^\s*(.+?)\s*$', '$1'), ' ')" />
             </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+    </xsl:choose></xsl:template>
     <xsl:template match="/">
         <html>
             <head>
@@ -96,10 +100,10 @@
                                         <td rowspan="2">
                                             <xsl:for-each select="for">
                                                 <xsl:call-template name="trans" />
-                                                <xsl:if test="@type">
-                                                    <xsl:text> </xsl:text>
-                                                    <small>(<xsl:value-of select="@type" />)</small>
-                                                </xsl:if>
+                                            </xsl:for-each>
+                                            <xsl:for-each select="type">
+                                                <br />
+                                                <small><xsl:call-template name="trans" /></small>
                                             </xsl:for-each>
                                         </td>
                                         <td>
