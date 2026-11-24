@@ -40,6 +40,92 @@
                 <link rel="stylesheet" href="../src/cv.css" />
             </head>
             <body lang="{$lang}">
+                <aside>
+                    <section>
+                        <div class="title">Personal</div>
+                        <div class="left-icon-text">
+                            <span>✉</span><xsl:value-of select="cv/personal/email" />
+                        </div>
+                        <xsl:if test="cv/personal/phone">
+                        <div class="left-icon-text">
+                            <span>📱</span><xsl:value-of select="cv/personal/phone" />
+                        </div>
+                        </xsl:if>
+                        <xsl:if test="cv/personal/location">
+                        <div class="left-icon-text">
+                            <span>🌍</span><xsl:for-each select="cv/personal/location">
+                                <xsl:call-template name="trans" />
+                            </xsl:for-each>
+                            <xsl:if test="cv/personal/location/@relocatable = 'yes'">
+                                (<xsl:value-of select="$trans__relocatable" />)
+                            </xsl:if>
+                        </div>
+                        </xsl:if>
+                    </section>
+                    <section class="links">
+                        <div class="title"><xsl:value-of select="$trans__links" /></div>
+                        <table cellpadding="0" cellspaging="0" border="0">
+                            <tbody>
+                            <xsl:for-each select="cv/links/link">
+                                <tr>
+                                    <td class="icon">
+                                        <img src="../src/icons/{@icon}" />
+                                    </td>
+                                    <td class="name">
+                                        <a href="{@url}">
+                                            <xsl:for-each select="name">
+                                                <xsl:call-template name="trans" />
+                                            </xsl:for-each>
+                                        </a>
+                                    </td>
+                                    <!--
+                                    <td>
+                                        <xsl:for-each select="description">
+                                            <xsl:call-template name="trans" />
+                                        </xsl:for-each>
+                                    </td>
+                                    -->
+                                </tr>
+                            </xsl:for-each>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section>
+                        <div class="title"><xsl:value-of select="$trans__skills" /></div>
+                        <table class="skills" cellpadding="0" cellspacing="0" border="0">
+                        <xsl:attribute name="class">skills<xsl:if test="/cv/skills/@use-stars = 'no'"> non-starred</xsl:if></xsl:attribute>
+                        <xsl:if test="cv/skills/english">
+                            <tr class="english-level">
+                                <td>English level</td>
+                                <td><xsl:value-of select="cv/skills/english" /></td>
+                            </tr>
+                        </xsl:if>
+                        <xsl:variable name="use_stars" as="xs:boolean" select="/cv/skills/@use-stars = 'no'" />
+                        <xsl:for-each select="cv/skills/type">
+                            <tr>
+                                <th colspan="2"><xsl:for-each select="name"><xsl:call-template name="trans" /></xsl:for-each></th>
+                            </tr>
+                            <xsl:for-each select="skill">
+                            <tr>
+                                <td><xsl:call-template name="trans" /></td>
+                                <xsl:if test="/cv/skills/@use-stars != 'no'">
+                                <td class="rate">
+                                    <span class="star-solid">
+                                    <xsl:for-each select="1 to xs:integer(@rate)">★</xsl:for-each>
+                                    </span>
+                                    <xsl:if test="xs:integer(@rate) &lt; 5">
+                                        <span class="star-hollow">
+                                        <xsl:for-each select="1 to (5 - xs:integer(@rate))">★</xsl:for-each>
+                                        </span>
+                                    </xsl:if>
+                                </td>
+                                </xsl:if>
+                            </tr>
+                            </xsl:for-each>
+                        </xsl:for-each>
+                        </table>
+                    </section>
+                </aside>
                 <main>
                     <header>
                         <h1><xsl:value-of select="cv/@name"/></h1>
@@ -52,32 +138,6 @@
                                     <xsl:call-template name="trans" />
                                 </xsl:for-each>
                             </div>
-                        </section>
-                        <section class="links">
-                            <div class="title"><xsl:value-of select="$trans__links" /></div>
-                            <table cellpadding="0" cellspaging="0" border="0">
-                                <tbody>
-                                <xsl:for-each select="cv/links/link">
-                                    <tr>
-                                        <td class="icon">
-                                            <img src="../src/icons/{@icon}" />
-                                        </td>
-                                        <td class="name">
-                                            <a href="{@url}">
-                                                <xsl:for-each select="name">
-                                                    <xsl:call-template name="trans" />
-                                                </xsl:for-each>
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <xsl:for-each select="description">
-                                                <xsl:call-template name="trans" />
-                                            </xsl:for-each>
-                                        </td>
-                                    </tr>
-                                </xsl:for-each>
-                                </tbody>
-                            </table>
                         </section>
                         <section class="experience">
                             <div class="title"><xsl:value-of select="$trans__experience" /></div>
@@ -157,64 +217,6 @@
                         </section>
                     </content>
                 </main>
-                <aside>
-                    <section>
-                        <div class="title">Personal</div>
-                        <div class="left-icon-text">
-                            <span>✉</span><xsl:value-of select="cv/personal/email" />
-                        </div>
-                        <xsl:if test="cv/personal/phone">
-                        <div class="left-icon-text">
-                            <span>📱</span><xsl:value-of select="cv/personal/phone" />
-                        </div>
-                        </xsl:if>
-                        <xsl:if test="cv/personal/location">
-                        <div class="left-icon-text">
-                            <span>🌍</span><xsl:for-each select="cv/personal/location">
-                                <xsl:call-template name="trans" />
-                            </xsl:for-each>
-                            <xsl:if test="cv/personal/location/@relocatable = 'yes'">
-                                (<xsl:value-of select="$trans__relocatable" />)
-                            </xsl:if>
-                        </div>
-                        </xsl:if>
-                    </section>
-                    <section>
-                        <div class="title"><xsl:value-of select="$trans__skills" /></div>
-                        <table class="skills" cellpadding="0" cellspacing="0" border="0">
-                        <xsl:attribute name="class">skills<xsl:if test="/cv/skills/@use-stars = 'no'"> non-starred</xsl:if></xsl:attribute>
-                        <xsl:if test="cv/skills/english">
-                            <tr class="english-level">
-                                <td>English level</td>
-                                <td><xsl:value-of select="cv/skills/english" /></td>
-                            </tr>
-                        </xsl:if>
-                        <xsl:variable name="use_stars" as="xs:boolean" select="/cv/skills/@use-stars = 'no'" />
-                        <xsl:for-each select="cv/skills/type">
-                            <tr>
-                                <th colspan="2"><xsl:for-each select="name"><xsl:call-template name="trans" /></xsl:for-each></th>
-                            </tr>
-                            <xsl:for-each select="skill">
-                            <tr>
-                                <td><xsl:call-template name="trans" /></td>
-                                <xsl:if test="/cv/skills/@use-stars != 'no'">
-                                <td class="rate">
-                                    <span class="star-solid">
-                                    <xsl:for-each select="1 to xs:integer(@rate)">★</xsl:for-each>
-                                    </span>
-                                    <xsl:if test="xs:integer(@rate) &lt; 5">
-                                        <span class="star-hollow">
-                                        <xsl:for-each select="1 to (5 - xs:integer(@rate))">★</xsl:for-each>
-                                        </span>
-                                    </xsl:if>
-                                </td>
-                                </xsl:if>
-                            </tr>
-                            </xsl:for-each>
-                        </xsl:for-each>
-                        </table> 
-                    </section>
-                </aside>
             </body>
         </html>
     </xsl:template>

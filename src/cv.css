@@ -228,23 +228,27 @@ content > section > .title {
     margin-bottom: 1rem;
 }
 
-content > section.links > table td {
+section.links > table td a {
+    text-decoration: none;
+}
+
+section.links > table td {
     padding: 0.2rem;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 @media print {
-    content > section.links > table td.icon {
+    section.links > table td.icon {
         padding-top: 0.4rem;
     }
 }
 
-content > section.links > table td.icon > img {
+section.links > table td.icon > img {
     width: 1.2rem;
     height: 1.2rem;
 }
 
-content > section.links > table td.name {
+section.links > table td.name {
     white-space: nowrap;
     padding-right: 1rem;
 }
