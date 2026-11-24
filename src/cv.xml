@@ -551,17 +551,19 @@
                 <trans lang="en">Founder, tech leader, lead and backend developer</trans>
                 <trans lang="es">Fundador, líder técnico, desarrollador líder y backend</trans>
             </as>
-            <project tech="Problem solving, architecture, software design, infrastructure design">
+            <project tech="Solutions architect, Software architecture, Infrastructure design, Serverless architecture">
                 <trans lang="en">
-                    **Planner, architect and tech leader of a SaaS platform** to manage scholar
-                    transport.
+                    **Planned and architected of a SaaS platform** for a school transport management 
+                    using serverless microservices at the core architecture and laying the 
+                    groundwork for the aqeuum framework
                 </trans>
                 <trans lang="es">
-                    **Planificador, arquitecto y líder técnico de una plataforma SaaS** para
-                    administrar transporte escolar.
+                    **Planifiqué y fui arquitecto de una plataforma SaaS** para administrar transporte
+                    escolar usando microservicios serverless como arquitectura central y estableciendo
+                    las bases de el aequum framework
                 </trans>
             </project>
-            <project tech="Project management, team management, leadership">
+            <project tech="Project management, Team management, Leadership, Mentorship, Parallel workflow">
                 <trans lang="en">
                     **Team leader and management of a small team** of 3 frontend and backend 
                     development interns, 1 designer and 1 DevOps
@@ -569,6 +571,17 @@
                 <trans lang="es">
                     **Líder de equipo y administración de un pequeño equipo** de 3 estudiantes
                     en práctica en desarrollo frontend y backend, 1 diseñador y 1 DevOps
+                </trans>
+            </project>
+            <project tech="Technical leadership, Software technical architecture, Technical design, DDD, API-First development, Parallel workflow">
+                <trans lang="en">
+                    **Led the definition of MVP domains and full technical design with the team
+                    applying API-First development to work parallel backend/frontend development**
+                </trans>
+                <trans lang="es">
+                    **Lideré la definición de los dominios del MVP y el diseño técnico completo con
+                    el equipo aplicando desarrollo API-First para trabajar backend/frontend en 
+                    paralelo**
                 </trans>
             </project>
         </job>
