@@ -49,39 +49,33 @@ body {
     /** Page break **/
 
     /* en - first page break */
-    body[lang="en"] content > section.experience > table > tbody > tr:nth-of-type(5) > td {
-        padding-top: 150pt;
+    body[lang="en"] content > section.experience > table > tbody > tr:nth-of-type(10) > td > ul > li:nth-of-type(2) {
+        padding-top: 15pt;
     }
 
     /* en - second page break */
-    body[lang="en"] content > section.experience > table > tbody > tr:nth-of-type(15) > td {
-        padding-top: 20pt !important;
+    body[lang="en"] content > section.experience > table > tbody > tr:nth-of-type(21) > td {
+        padding-top: 15pt !important;
     }
 
     /* en - skill section break */
-    body[lang="en"] aside > section > table.skills tbody > tr:nth-of-type(57) > th {
-        padding-top: 50pt
+    body[lang="en"] aside > section > table.skills tbody > tr:nth-of-type(46) > th {
+        padding-top: 85pt
     }
 
-
     /* es - first page break */
-    body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(5) > td {
-        padding-top: 120pt;
+    body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(9) > td {
+        padding-top: 17pt;
     }
 
     /* es - second page break */
-    body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(14) > td > ul > li:nth-of-type(4) {
-        padding-top: 30pt !important;
-    }
-
-    /* es - third page break */
-    body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(28) > td > ul > li:nth-of-type(4) {
-        padding-top: 55pt !important;
+    body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(18) > td > ul > li:nth-of-type(2) {
+        padding-top: 15pt !important;
     }
 
     /* es - skill section break */
-    body[lang="es"] aside > section > table.skills tbody > tr:nth-of-type(57) > th {
-        padding-top: 50pt
+    body[lang="es"] aside > section > table.skills tbody > tr:nth-of-type(46) > th {
+        padding-top: 75pt
     }
 
 }

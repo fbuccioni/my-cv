@@ -38,6 +38,25 @@
             </description>
         </link>
         <link
+            url="https://github.com/search?q=author%3Afbuccioni+is%3Apr++&amp;type=pullrequests&amp;state=closed"
+            icon="github.svg"
+        >
+            <name>
+                <trans lang="en">GitHub PRs to open-source</trans>
+                <trans lang="es">PRs de GitHub a codigo abierto</trans>
+            </name>
+            <description>
+                <trans lang="en">
+                    Contributions and some custom mods to open source projects, plugins/libreries by me,
+                    experiments and more.
+                </trans>
+                <trans lang="es">
+                    Contribuciones y algunas modificaciones personalizadas a proyectos de código abierto,
+                    algunos plugins/librerías mí, experimentos y más.
+                </trans>
+            </description>
+        </link>
+        <link
             url="https://stackoverflow.com/users/742249/felipe-buccioni"
             icon="stackoverflow.png"
         >
@@ -91,19 +110,52 @@
                 <trans lang="en">Lead and management</trans>
                 <trans lang="es">Líderazgo y administración</trans>
             </name>
+
             <skill rate="4">
-                <trans lang="en">Development planning</trans>
-                <trans lang="es">Planificación de desarrollo</trans>
+                <trans lang="en">Technical leadership (tech lead)</trans>
+                <trans lang="es">Liderazgo técnico (tech lead)</trans>
             </skill>
-            <skill rate="4">
-                <trans lang="en">Problem solving</trans>
-                <trans lang="es">Resolución de problemas</trans>
-            </skill>
+            <skill rate="3">Lead developer</skill>
             <skill rate="3">
                 <trans lang="en">Team management</trans>
                 <trans lang="es">Gestión de equipos</trans>
             </skill>
-            <skill rate="3">
+            <skill rate="5">
+                <trans lang="en">Mentorship and guidance</trans>
+                <trans lang="es">Mentoría y guía</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">Research and development (R+D)</trans>
+                <trans lang="es">Investigacion y desarollo (I+D)</trans>
+            </skill>
+        </type>
+        <type>
+            <name>
+                <trans lang="en">Software engineer &amp; architecture</trans>
+                <trans lang="es">Ingenieria y arquitectura de software</trans>
+            </name>
+
+            <skill rate="5">
+                <trans lang="en">Solutions architecture</trans>
+                <trans lang="es">Arquitectura de soluciones</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Software architecture</trans>
+                <trans lang="es">Arquitectura de software</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Software technical architecture</trans>
+                <trans lang="es">Arquitectura técnica de software</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">Software design</trans>
+                <trans lang="es">Diseño de software</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">Software design patterns</trans>
+                <trans lang="es">Patrones de diseño de software</trans>
+            </skill>
+            <skill rate="4">
                 <trans lang="en">Infrastructure design</trans>
                 <trans lang="es">Diseño de infraestructura</trans>
             </skill>
@@ -111,24 +163,16 @@
                 <trans lang="en">Database design</trans>
                 <trans lang="es">Diseño de bases de datos</trans>
             </skill>
-            <skill rate="4">
-                <trans lang="en">Software Engineering</trans>
-                <trans lang="es">Ingeniería de software</trans>
-            </skill>
             <skill rate="3">
-                <trans lang="en">Software architecture</trans>
-                <trans lang="es">Arquitectura de software</trans>
+                <trans lang="en">Cybersecurity</trans>
+                <trans lang="es">Ciberseguridad</trans>
             </skill>
             <skill rate="4">
-                <trans lang="en">Software design</trans>
-                <trans lang="es">Diseño de software</trans>
+                <trans lang="en">Problem solving</trans>
+                <trans lang="es">Solucionador de problemas</trans>
             </skill>
-            <skill rate="4">
-                <trans lang="en">Design patterns</trans>
-                <trans lang="es">Patrones de diseño</trans>
-            </skill>
-            <skill rate="3">Lead developer</skill>
         </type>
+
         <type>
             <name>ML / LLM</name>
             <skill rate="3">
@@ -142,6 +186,7 @@
             <skill rate="3">OpenAI API</skill>
             <skill rate="3">Google LLM API</skill>
             <skill rate="4">OpenAI vector store</skill>
+            <skill rate="3">LangChain</skill>
         </type>
         <type>
             <name>
@@ -194,50 +239,74 @@
             <skill rate="5">Django REST</skill>
             <skill rate="3">Flask</skill>
             <skill rate="3">Angular</skill>
-            <skill rate="4">GeoDjango</skill>
-            <skill rate="5">leaflet</skill>
             <skill rate="5">OpenSeadragon</skill>
-            <skill rate="3">PostGIS</skill>
         </type>
 
         <type>
             <name>
-                <trans lang="en">Cloud providers</trans>
-                <trans lang="es">Proveedores de nube</trans>
+                <trans lang="en">Cloud &amp; Infrastructure</trans>
+                <trans lang="es">Infraestructura y Cloud</trans>
             </name>
+            <skill rate="3">
+                <trans lang="en">Networking</trans>
+                <trans lang="es">Redes</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">Serverless architecture</trans>
+                <trans lang="es">Arqitectura serverless</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">High availability</trans>
+                <trans lang="es">Alta disponibilidad</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Auto-scaling</trans>
+                <trans lang="es">Autoescalamiento</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Load balancing</trans>
+                <trans lang="es">Balanceo de carga</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Replication</trans>
+                <trans lang="es">Replicación</trans>
+            </skill>
+            <skill rate="3">
+                <trans lang="en">Cloud cost optimization (FinOps)</trans>
+                <trans lang="es">Optimización costos cloud (FinOps)</trans>
+            </skill>
             <skill rate="3">AWS</skill>
             <skill rate="2">Azure</skill>
-        </type>
-
-        <type>
-            <name>DevOps</name>
             <skill rate="3">CDK</skill>
             <skill rate="4">Docker</skill>
-            <skill rate="5">Linux</skill>
+            <skill rate="5">Linux admin</skill>
+            <skill rate="4">Linux security</skill>
             <skill rate="3">Pulumi</skill>
             <skill rate="4">Pipelines</skill>
             <skill rate="4">git</skill>
             <skill rate="5">bash</skill>
+            <skill rate="3">Serverless framework</skill>
         </type>
 
         <type>
             <name>
-                <trans lang="en">Services and tools</trans>
-                <trans lang="es">Servicios y herramientas</trans>
+                <trans lang="en">Database/data Engineering</trans>
+                <trans lang="es">Ingeniería de datos/bases de datos</trans>
             </name>
-            <skill rate="3">ffmpeg</skill>
-            <skill rate="4">Mapserver</skill>
-        </type>
 
-        <type>
-            <name>
-                <trans lang="en">Complementary skills</trans>
-                <trans lang="es">Habilidades complementarias</trans>
-            </name>
             <skill rate="3">
                 <trans lang="en">Query optimization</trans>
                 <trans lang="es">Optimización de consultas</trans>
             </skill>
+            <skill rate="3">
+                <trans lang="en">Database optimization</trans>
+                <trans lang="es">Optimización de base de datos</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">Data modeling</trans>
+                <trans lang="es">Modelamiento de datos</trans>
+            </skill>
+            <skill rate="4">ETL</skill>
             <skill rate="4">
                 <trans lang="en">Documental databases</trans>
                 <trans lang="es">Bases de datos documentales</trans>
@@ -246,31 +315,84 @@
                 <trans lang="en">Relational databases</trans>
                 <trans lang="es">Bases de datos relacionales</trans>
             </skill>
-            <skill rate="4">DevOps</skill>
-            <skill rate="3">
-                <trans lang="en">Networking</trans>
-                <trans lang="es">Redes</trans>
-            </skill>
-            <skill rate="4">RPA</skill>
-            <skill rate="4">ETL</skill>
-            <skill rate="4">Webhooks</skill>
-            <skill rate="4">Queue</skill>
-            <skill rate="4">Media streaming</skill>
-            <skill rate="4">
-                <trans lang="en">Image compression</trans>
-                <trans lang="es">Compresión de imágenes</trans>
-            </skill>
-            <skill rate="4">
-                <trans lang="en">Computer cartograpghy</trans>
+            <skill rate="4">PostgreSQL</skill>
+            <skill rate="5">MySQL / MariaDB</skill>
+            <skill rate="3">FirebirdSQL</skill>
+            <skill rate="2">Oracle</skill>
+            <skill rate="4">Microsoft SQL Server</skill>
+            <skill rate="5">SQLite</skill>
+            <skill rate="3">Pandas</skill>
+        </type>
+
+        <type>
+            <name>
+                <trans lang="en">GIS &amp; geospatial</trans>
+                <trans lang="es">SIG y geoespacial</trans>
+            </name>
+            <skill rate="5">
+                <trans lang="en">Digital cartograpghy</trans>
                 <trans lang="es">Cartografía digital</trans>
             </skill>
+            <skill rate="5">
+                <trans lang="en">Raster cartograpghy</trans>
+                <trans lang="es">Cartografía raster</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">Cartograpghy interoperability</trans>
+                <trans lang="es">Interoperabilidad de cartografía</trans>
+            </skill>
+            <skill rate="5">
+                <trans lang="en">Batch processing</trans>
+                <trans lang="es">Procesamiento por lotes (batch)</trans>
+            </skill>
+            <skill>
+                <trans lang="en">XYZ Tiles</trans>
+                <trans lang="es">Mosaicos XYZ</trans>
+            </skill>
+            <skill>
+                <trans lang="en">Web mapping</trans>
+                <trans lang="es">Mapas web</trans>
+            </skill>
+            <skill rate="3">PosgGIS</skill>
+            <skill rate="4">GeoDjango</skill>
+            <skill rate="3">GeoProcessing</skill>
+            <skill rate="4">GDAL</skill>
+            <skill rate="4">Mapserver</skill>
+            <skill rate="5">leaflet</skill>
+            <skill rate="4">OpenLayers</skill>
+        </type>
+
+        <type>
+            <name>Media streaming</name>
+            <skill rate="3">ffmpeg</skill>
+            <skill rate="3">VLC (streaming)</skill>
+            <skill rate="4">HLS</skill>
             <skill rate="3">
                 <trans lang="en">Wowza management</trans>
                 <trans lang="es">Administracion de wowza</trans>
             </skill>
         </type>
+
+        <type>
+            <name>
+                <trans lang="en">Complementary skills</trans>
+                <trans lang="es">Habilidades complementarias</trans>
+            </name>
+
+            <skill rate="4">RPA</skill>
+            <skill rate="4">Webhooks</skill>
+            <skill rate="4">Queues</skill>
+            <skill rate="4">
+                <trans lang="en">Image processing</trans>
+                <trans lang="es">Procesamianto de imágenes</trans>
+            </skill>
+            <skill rate="4">
+                <trans lang="en">Image overcompression</trans>
+                <trans lang="es">Sobrecompresión de imágenes</trans>
+            </skill>
+        </type>
     </skills>
-    <jobs highlights="yes">
+    <jobs highlights="no">
         <job from="2025-07" to="2026-05">
             <for>ChatLPO</for>
             <type>
@@ -278,17 +400,19 @@
                 <trans lang="en">Employee</trans>
             </type>
             <as>Software architect &amp; lead developer</as>
-            <project tech="Tech leadership, software engineering, software design patterns, FastAPI">
+            <project tech="Technical leadership, software engineering, software design patterns, software technical architecture, FastAPI">
                 <trans lang="en">
-                    **Led the architectural evolution of a monolithic application** into an modulith with hexagonal
-                    architecture as strategy to reach microservices ecosystem.
+                    **Led the evolution of a monolith app into an modulith** with hexagonal architecture,
+                    cutting bugfix turnaround and feature delivery time while improving performance
+                    and response times.
                 </trans>
                 <trans lang="es">
-                    **Líder de la evolución arquitectónica de una aplicación monolítica** hacia una arquitectura modular
-                    (modulith) con hexagonal como estrategia para alcanzar un ecosistema de microservicios
+                    **Líderé la evolución de una app monolítica a "modulitico" (modulith)** con arquitectura
+                    hexagonal, reduciendo tiempos de resolucion de bugs y entrega de nuevas características
+                    mientras mejoraban performance y tiempos de respuesta.
                 </trans>
             </project>
-            <project tech="Python, strict type annotations, SOLID, Clean code, OpenAPI, hexagonal architecture">
+            <project tech="Python, python type annotations, SOLID, Clean code, OpenAPI, hexagonal architecture">
                 <trans lang="en">
                     **Designed and implemented code policies and development guidelines.**
                 </trans>
@@ -296,19 +420,20 @@
                     **Diseño e implementación de políticas de código y directrices de desarrollo.**
                 </trans>
             </project>
-            <project tech="DI, Containers, Factory, Builder, SOLID, Class based views, Python, SQLAlchemy, SQLModel, alembic, FastAPI, Pydantic, hexagonal architecture, Software documentation">
+            <project tech="Software architecture, DI, Containers, Factory, Builder, SOLID, Class based views, Python, SQLAlchemy, SQLModel, alembic, FastAPI, Pydantic, hexagonal architecture, Software documentation">
                 <trans lang="en">
-                    **Made a Hexagonal Architecture framework**, leveraging advanced design patterns and developing
-                    encapsulated, reusable CRUDL components (repositories, services and views) with optimized
-                    filtering and pagination.
+                    **Built a Hexagonal Architecture framework improving bugfix turnaround and feature delivery time**,
+                    leveraging advanced design patterns and developing encapsulated, reusable CRUDL components (repositories,
+                    services and views) with optimized filtering and pagination, improving performance and response times.
                 </trans>
                 <trans lang="es">
-                    **Creacion de un framework de arquitectura hexagonal**, usando patrones de diseño avanzados
-                    y desarrollando componentes CRUDL encapsulados y reutilizables (repositorios, servicios y vistas)
-                    con filtrado y paginación optimizados.
+                    **Creacion de un framework de arquitectura hexagonal mejorando tiempo de resolucion de bugs y entrega de
+                    funcionalidades**, usando patrones de diseño avanzados y desarrollando componentes CRUDL encapsulados y
+                    reutilizables (repositorios, servicios y vistas) con filtrado y paginación optimizado, mejorando rendimiento y
+                    tiempos de respuesta.
                 </trans>
             </project>
-            <project tech="SRP, Security, Lead developer">
+            <project tech="SRP, Cybersecurity, Lead developer">
                 <trans lang="en">
                     **Upgraded and hardened production RAG app from an MVP+ status** by decoupling services,
                     separating LLM prompting/tuning and securing environments with secret managers.
@@ -319,7 +444,7 @@
                     ajuste del LLM y la protección de los entornos con gestores de secretos.
                 </trans>
             </project>
-            <project tech="Azure DevOps, Azure cloud, Azure permissions">
+            <project tech="DevOps, Cibersecurity, Azure DevOps, Azure cloud, Azure permissions">
                 <trans lang="en">
                     **Cloud management, improvement of pipelines and create environments**
                 </trans>
@@ -330,24 +455,26 @@
             <project tech="LangChain, Prompt engineering, Image Generation, Vector Search, Eventing, MSSQL, RAG, OpenAI, OpenAI vector store">
                 <trans lang="en">
                     **Optimize IA and third-party integrations** refactoring critical services and improving third-party
-                    integrations
+                    integrations, enriching the answers from the assistant and improving user experience.
                 </trans>
                 <trans lang="es">
                     **Optimizar la arquitectura de la IA y las integraciones con terceros** mediante la refactorización
-                    de servicios críticos y la mejora de las integraciones con terceros
+                    de servicios críticos y la mejora de las integraciones con terceros, enriqueciendo las respuestas del
+                    asistente y mejorando la experiencia del usuario.
                 </trans>
             </project>
             <project tech="SQLAlchemy, SQLModel, Pydantic, alembic, MSSQL">
                 <trans lang="en">
                     **Optimize relational database management and architecture** by redesigning tables, indexes,
-                    implementing migrations and a decomposition plan
+                    implementing migrations and a decomposition plan, boosting performance in the app
                 </trans>
                 <trans lang="es">
                     **Optimización de la gestión y arquitectura de bases de datos relacionales** mediante el
-                    rediseño de tablas e índices, implementación de migraciones y un plan para la descomposicion
+                    rediseño de tablas e índices, implementación de migraciones y un plan para la descomposicion,
+                    aumentando el rendimiento de la app
                 </trans>
             </project>
-            <project tech="LLM, LangChain, prompt engineering, LLM tooling, text structuring, RAG, Pydantic">
+            <project tech="LLM, LangChain, prompt engineering, LLM tooling, text structuring, Data structuring, RAG, Pydantic">
                 <trans lang="en">
                     **Improve prompts and LLM results** using prompt engineering, provide structured contexts and
                     tool calling / function calling
@@ -357,7 +484,7 @@
                     contextos estructurados y llamadas de herramientas / llamadas a funciones LLM
                 </trans>
             </project>
-            <project tech="Software Engineering, Mentoring, Guide, Software documentation">
+            <project tech="Software Engineering, Mentorship, Guide, Software documentation">
                 <trans lang="en">
                     **Provide technical mentorship and comprehensive architectural documentation.**
                 </trans>
@@ -384,19 +511,17 @@
                 <trans lang="en">Creator</trans>
                 <trans lang="es">Creador</trans>
             </as>
-            <project tech="NestJS, software design patterns, TypeScript, Swagger, TypeORM, Mongoose, npm">
+            <project tech="Software technical architecture, Software engineering, hexagonal architecture, serverless architecture, software design patterns, nodejs, NestJS, TypeScript, Strong TypeScript typing, Swagger, TypeORM, Mongoose, serverless framework, npm">
                 <trans lang="en">
-                    **Designer, planner and developer for a framework to build applications in
-                    hexagonal architecture** for NestJS or standalone, to make common things
-                    easier to make, with features like simple CRUD/CRUDL services and
-                    controllers with full OpenAPI, TypeORM and Mongoose paginated repositories,
-                    authentication, authorization, DTOs, types and more.
+                    **Designer, planner and developer of an open-source hexagonal architecture framework**
+                    for NestJS or standalone apps, featuring CRUD/CRUDL services and controllers with
+                    OpenAPI, paginated repositories (TypeORM/Mongoose), auth (authn and authz), DTOs,
+                    types, and more.
                 </trans>
                 <trans lang="es">
-                    **Diseñador, planificador y desarrollador de un framework para construir
-                    aplicaciones en arquitectura hexagonal** para NestJS o solo, haciendo lo
-                    común mas fácil, con características como servicios y controladores CRUD/CRUDL
-                    sencillos con OpenAPI completo, repositorios paginados para TypeORM y Mongoose,
+                    **Diseñador, planificador y desarrollador de un framework de arquitectura hexagonal
+                    open-source** para apps NestJS o sola, incluye servicios y controladores CRUD/CRUDL
+                    con OpenAPI completo, repositorios paginados (TypeORM/Mongoose),
                     autenticación, autorización, DTOs, tipos y más.
                 </trans>
             </project>
@@ -523,7 +648,7 @@
                 <trans lang="en">Senior Backend Developer</trans>
                 <trans lang="es">Desarrollador backend senior</trans>
             </as>
-            <project tech="Problem solving, Software Architecture, Software design, Infrastructure design, php, Yii2">
+            <project tech="Problem solving, Technical leadership, Software Architecture, Software design, Infrastructure design, php, Yii2">
                 <trans lang="en">
                     **Build up development processes and do a recover plan** from a refactor with
                     a bunch of bad practices that left the software in a bad state, with a lot
@@ -552,14 +677,6 @@
                     **Mantenimiento y mejora de software legado**
                 </trans>
             </project>
-            <project tech="Design patterns (Hexagonal, Repository, Aggregate, Anti corruption layers), InversifyJS, express, knex, advanced TypeScript typing">
-                <trans lang="en">
-                    **Backend developer** in node.js and TypeScript
-                </trans>
-                <trans lang="es">
-                    **Desarrollador backend** en node.js y TypeScript
-                </trans>
-            </project>
             <project tech="Webhook, Queue, Lambda, ETL">
                 <trans lang="en">
                     **Integration development**
@@ -568,15 +685,7 @@
                     **Desarrollo de integraciones**
                 </trans>
             </project>
-            <project tech="Design patterns">
-                <trans lang="en">
-                    **Design of plugin system** with abstract classes and interfaces to different providers on different parts of the software
-                </trans>
-                <trans lang="es">
-                    **Diseño de sistema de plugins** con clases e interfaces abstractas para diferentes proveedores en diferentes partes del software
-                </trans>
-            </project>
-            <project tech="Solution architect, TypeScript, AWS, AWS CDK, AWS lambda, AWS SQS, AWS Secrets manager">
+            <project tech="Cybersecurity, Networking, Solution architect, TypeScript, AWS, AWS CDK, AWS lambda, AWS SQS, AWS Secrets manager">
                 <trans lang="en">
                     **Payout platform with isolated infrastructure**
                 </trans>
@@ -584,12 +693,12 @@
                     **Plataforma de pagos con infraestructura aislada**
                 </trans>
             </project>
-            <project tech="Design patterns">
+            <project tech="Design patterns, software technical architecture, hexagonal architecture, Design patterns, Repository, Aggregate, InversifyJS, express, knex, advanced TypeScript typing, node.js, TypeScript">
                 <trans lang="en">
-                    **Improvement of custom framework** based on different design patterns
+                    **Improvement and developer of custom framework** based on different design patterns
                 </trans>
                 <trans lang="es">
-                    **Mejora de framework personalizado** basado en diferentes patrones de diseño
+                    **Mejora y desarrollo de framework personalizado** basado en diferentes patrones de diseño
                 </trans>
             </project>
             <project tech="AWS, BitBucket, bash, Linux">**DevOps**</project>
@@ -609,7 +718,7 @@
                     **Interoperabilidad de software legado y nuevo vía capa de anti corrupción**
                 </trans>
             </project>
-            <project tech="python">
+            <project tech="python, RPA, multiprocessing">
                 <trans lang="en">**RPA optimization and improvement**</trans>
                 <trans lang="es">**Optimización y mejora de RPA**</trans>
             </project>
@@ -646,14 +755,15 @@
                     detalles como costos, viajes, comportamiento y estadísticas de los autos asegurados por la compañía.
                 </trans>
             </project>
-            <project tech="Design patterns, python, Django, Django REST, Django JET, multiprocessing, webhook arch, queue arch, API integration, OCTO web services">
+            <project tech="Design patterns, state machine, lifecycle hooks, python, Django, Django REST, Django JET, multiprocessing, webhook, queue, API integration, OCTO web services">
                 <trans lang="en">
                     **Planning and development of intermediate app to manage the logistics of GPS devices** between the insurance company,
-                    telematics company (Octo Telematics), logistics company and couriers.
+                    telematics company (Octo Telematics), logistics company and couriers used in whole Chile and Panamá
                 </trans>
                 <trans lang="es">
                     **Planificación y desarrollo de aplicación intermedia para gestionar la logística de los dispositivos GPS** entre la
-                    compañía de seguros, la compañía telemática (Octo Telematics), la compañía de logística y los mensajeros.
+                    compañía de seguros, la compañía telemática (Octo Telematics), la compañía de logística y los mensajeros usado en todo
+                    Chile y Panamá
                 </trans>
             </project>
             <project tech="python, API integration, XML, REST, RPA, selenium">
@@ -693,23 +803,6 @@
                 </trans>
             </project>
         </job>
-        <job from="2022-04" to="2022-06">
-            <for>Modulonet</for>
-            <type>Freelance</type>
-            <as>
-                <trans lang="en">Backend/API developer</trans>
-                <trans lang="es">Desarrollador backend/API</trans>
-            </as>
-            <project tech="php, php 7, API, phpdoc">
-                <trans lang="en">
-                    **Development of a library API to sign PDF files** using a commandline tool as backend
-                </trans>
-                <trans lang="es">
-                    **Desarollo de una API biblioteca para firmar archivos PDF** con una herramienta de línea
-                    de comandos como backend
-                </trans>
-            </project>
-        </job>
         <job from="2021-04" to="2021-05">
             <for>Somoscircular</for>
             <type>Freelance</type>
@@ -728,38 +821,30 @@
                 </trans>
             </project>for
         </job>
-        <job from="2020-12" to="2021-01">
+        <job from="2020-09" to="2021-01">
             <for>ETYCC S.A</for>
             <type>Freelance</type>
             <as>
                 <trans lang="en">Co-project Leader - Backend developer</trans>
                 <trans lang="es">Co líder de proyecto - Desarollador backend</trans>
             </as>
-            <project tech="python, Django, Django REST, Django JET, JWT Auth, GeoDJango">
+            <project tech="Technical leadership, problem solving, python, Django, Django REST, Django JET, JWT Auth, GeoDJango">
                 <trans lang="en">
-                    **Co-Project Leader/Backend developer of app/platform for COVID-19 traceability** for the Aysén
+                    **Tech leader and Backend developer of app/platform for COVID-19 traceability** for the Aysén
                     Region in 1 month, also act like problem solver with the deployment on iOS with ionic
                 </trans>
                 <trans lang="es">
-                    Co líder de proyecto/Desarollador backend de aplicacion/plataforma de trazabilidad para el
-                    COVID-19** para la rebion de Aysén en 1 mes, tambien actué como solucionador de problemas con
+                    **Tech leader y desarollador backend de aplicacion/plataforma de trazabilidad para el
+                    COVID-19** para la región de Aysén en 1 mes, tambien actué como solucionador de problemas con
                     ionic y iOS.
                 </trans>
             </project>
-        </job>
-        <job from="2020-09" to="2020-09">
-            <for>ETYCC S.A</for>
-            <type>Freelance</type>
-            <as>
-                <trans lang="en"> type="Freelance"Co-Project Leader - Backend developer</trans>
-                <trans lang="es">Co líder de proyecto - Desarollador backend</trans>
-            </as>
-            <project tech="python, Django, Django REST, Django JET">
+            <project tech="Technical leadership, python, Django, Django REST, Django JET">
                 <trans lang="en">
-                    **Co-Project Leader/Backend developer of long form** for bank application in 3 weeks
+                    **Tech Leader and backend developer of long form** for bank application in 3 weeks
                 </trans>
                 <trans lang="es">
-                    **Co líder de proyecto/Desarollador backend para un largo formulario** de aplicación para bancos
+                    **Lider tecnico y desarollador backend para un largo formulario** de aplicación para bancos
                     en 3 semanas
                 </trans>
             </project>
@@ -773,10 +858,10 @@
             </as>
             <project tech="python, OpenCV, TKInter, multiprocessing, sharedmem, IPC, Image processing, pyautogui, multiplatform Python, Design patterns">
                 <trans lang="en">
-                    **Multiplatform (Windows and linux) RPA Robot** who enters bank data to ERP software
+                    **Multiplatform RPA Robot** that downloads and process bank data and types it into ERP software
                 </trans>
                 <trans lang="es">
-                    **Robot RPA multiplataforma (Windows y linux)** que ingresa datos a un software ERP
+                    **Robot RPA multiplataforma** que descargaba datos del banco y los tipeaba a un software ERP
                 </trans>
             </project>
         </job>
@@ -989,7 +1074,7 @@
                 <trans lang="en">nginx plugin developer</trans>
                 <trans lang="es">Desarrollador de plugin para nginx</trans>
             </as>
-            <project tech="perl, nginx">
+            <project techit ="perl, nginx">
                 <trans lang="en">
                     **Build of a SMTP gateway** developing a perl nginx module to deliver SMTP mail to the clients of
                     a small VPS company
