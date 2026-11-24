@@ -64,7 +64,7 @@
                     </section>
                     <section class="links">
                         <div class="title"><xsl:value-of select="$trans__links" /></div>
-                        <table cellpadding="0" cellspaging="0" border="0">
+                        <table cellpadding="0" cellspacing="0" border="0">
                             <tbody>
                             <xsl:for-each select="cv/links/link">
                                 <tr>
@@ -153,7 +153,7 @@
                                 </xsl:if>
                             </div>
                             </xsl:if>
-                            <table cellpadding="0" cellspaging="0" border="0">
+                            <table cellpadding="0" cellspacing="0" border="0">
                                 <tbody>
                                 <xsl:for-each select="cv/jobs/job">
                                     <tr>
