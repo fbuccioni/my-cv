@@ -39,6 +39,11 @@ body {
     }
 }
 
+@media not print {
+    body[lang="es"] > footer > div.page-gap {
+        display: none
+    }
+}
 
 @media print {
     body, html, td, th {
@@ -50,36 +55,40 @@ body {
         box-shadow: none;
     }
 
-    /** Page break **/
-
+    /** Page break: English **/
     /* en - first page break */
     body[lang="en"] content > section.experience > table > tbody > tr:nth-of-type(8) > td > ul > li:nth-of-type(3) { 
         padding-top: 12pt;
     }
-
     /* en - second page break */
     body[lang="en"] content > section.experience > table > tbody > tr:nth-of-type(17) > td {
         padding-top: 50pt !important;
     }
-
     /* en - skill section break */
     body[lang="en"] aside > section > table.skills tbody > tr:nth-of-type(47) > th {
         padding-top: 25pt
     }
+    /* en - page end gap */
+    body[lang="en"] > footer > div.page-gap {
+        height: 116pt;
+    }
 
+    /** Page break: Español **/
     /* es - first page break */
     body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(7) > td { 
         padding-top: 72pt;
     }
-
     /* es - second page break */
     body[lang="es"] content > section.experience > table > tbody > tr:nth-of-type(14) > td > ul > li:nth-of-type(7) {
         padding-top: 12pt !important;
     }
-
     /* es - skill section break */
     body[lang="es"] aside > section > table.skills tbody > tr:nth-of-type(46) > td {
         padding-top: 24pt
+    }
+    /* es - page end gap */
+    body[lang="es"] > footer > div.page-gap {
+        height: 16pt;
     }
 
 }
